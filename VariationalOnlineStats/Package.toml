@@ -1,0 +1,3 @@
+name = "VariationalOnlineStats"
+uuid = "19baa3cf-15a9-54b0-b671-5d0d7003ae5b"
+repo = "git@github.com:timholy/VariationalOnlineStats.jl.git"

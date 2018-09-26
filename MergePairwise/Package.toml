@@ -1,0 +1,3 @@
+name = "MergePairwise"
+uuid = "2b713a72-c0d4-11e8-0e3e-e7c72182117a"
+repo = "git@github.com:HolyLab/MergePairwise.jl.git"

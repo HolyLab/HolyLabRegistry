@@ -1,0 +1,5 @@
+["0.1"]
+julia = "0.7-1.1"
+FactoredMatrices = "0.1"
+ISVD = "0.1"
+ShotNoise = "0.1"

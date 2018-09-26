@@ -1,0 +1,20 @@
+name = "HolyLabRegistry"
+uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
+repo = "git@github.com:HolyLab/HolyLabRegistry.git"
+
+description = """
+Holylab julia package registry where people can
+register any package within lab scope.
+"""
+
+[packages]
+0de75c66-c0d4-11e8-3de9-d1632eed9267 = { name = "ISVD", path = "ISVD" }
+13d07ad6-c0d4-11e8-35b1-91a532e61cc8 = { name = "FactoredMatrices", path = "FactoredMatrices"}
+189fa2b0-c0d4-11e8-1b41-c5eb7281c27c = { name = "ExtraMatrix", path = "ExtraMatrix"}
+19baa3cf-15a9-54b0-b671-5d0d7003ae5b = { name = "VariationalOnlineStats", path = "VariationalOnlineStats"}
+9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "BoxTrees"}
+cd6f60fb-236b-5882-ad4f-250d5433a9a7 = { name = "TileTrees", path = "TileTrees"}
+55325cc8-c0ec-11e8-2109-1f9bd277abf4 = { name = "ShotNoise", path = "ShotNoise"}
+23bcbbb2-c0d4-11e8-38f2-37d4ddb111c4 = { name = "TiledFactorizations", path = "TiledFactorizations"}
+2b713a72-c0d4-11e8-0e3e-e7c72182117a = { name = "MergePairwise", path = "MergePairwise"}
+597c7b4e-c0ec-11e8-1347-855d2b7c9c20 = { name = "FakeCells", path = "FakeCells"}
