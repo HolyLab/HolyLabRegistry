@@ -1,0 +1,3 @@
+name = "IntervalFastMath"
+uuid = "f385d984-c960-11e8-171c-977bba6b62a4"
+repo = "https://github.com/HolyLab/IntervalFastMath.jl.git"
