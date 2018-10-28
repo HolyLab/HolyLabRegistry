@@ -19,3 +19,5 @@ cd6f60fb-236b-5882-ad4f-250d5433a9a7 = { name = "TileTrees", path = "TileTrees"}
 2b713a72-c0d4-11e8-0e3e-e7c72182117a = { name = "MergePairwise", path = "MergePairwise"}
 597c7b4e-c0ec-11e8-1347-855d2b7c9c20 = { name = "FakeCells", path = "FakeCells"}
 304b7e5e-c0d4-11e8-1391-db3dfdb9ef20 = { name = "CellSegmentation", path = "CellSegmentation"}
+f385d984-c960-11e8-171c-977bba6b62a4 = { name = "IntervalFastMath", path = "IntervalFastMath"}
+0f17980a-d2b6-11e8-2799-edcc513b22eb = { name = "HistogramPyramids", path = "HistogramPyramids"}
