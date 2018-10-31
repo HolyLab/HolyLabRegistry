@@ -23,3 +23,4 @@ f385d984-c960-11e8-171c-977bba6b62a4 = { name = "IntervalFastMath", path = "Inte
 0f17980a-d2b6-11e8-2799-edcc513b22eb = { name = "HistogramPyramids", path = "HistogramPyramids"}
 768c9593-c1e5-5107-8576-9ed3f4373482 = { name = "CoordinateSplittingPTrees", path = "CoordinateSplittingPTrees"}
 7ecfceec-b993-11e8-0809-a584061f8d98 = { name = "OptimizeIVQ", path = "OptimizeIVQ"}
+b9709bfb-d23d-5560-8276-8c35c4b76823 = { name = "CachedInterpolations", path = "CachedInterpolations"}
