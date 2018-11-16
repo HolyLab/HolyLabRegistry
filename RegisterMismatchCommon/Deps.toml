@@ -1,0 +1,8 @@
+["0.0-0.1"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+CenterIndexedArrays = "46a7138f-0d70-54e1-8ada-fb8296f91f24"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+RegisterCore = "67712758-55e7-5c3c-8e85-dda1d7758434"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"

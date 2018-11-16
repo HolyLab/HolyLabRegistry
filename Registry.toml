@@ -24,3 +24,16 @@ f385d984-c960-11e8-171c-977bba6b62a4 = { name = "IntervalFastMath", path = "Inte
 768c9593-c1e5-5107-8576-9ed3f4373482 = { name = "CoordinateSplittingPTrees", path = "CoordinateSplittingPTrees"}
 7ecfceec-b993-11e8-0809-a584061f8d98 = { name = "OptimizeIVQ", path = "OptimizeIVQ"}
 b9709bfb-d23d-5560-8276-8c35c4b76823 = { name = "CachedInterpolations", path = "CachedInterpolations"}
+46a7138f-0d70-54e1-8ada-fb8296f91f24 = { name = "CenterIndexedArrays", path = "CenterIndexedArrays"}
+67712758-55e7-5c3c-8e85-dda1d7758434 = { name = "RegisterCore", path = "RegisterCore"}
+d4862ba2-f42c-5aeb-af4f-96a8884a16c4 = { name = "RegisterUtilities", path = "RegisterUtilities"}
+c19381b7-cf49-59d7-881c-50dfbd227eaf = { name = "RegisterDeformation", path = "RegisterDeformation"}
+464fa2a9-b19c-5c59-8698-f58c971f971e = { name = "RegisterPenalty", path = "RegisterPenalty"}
+3c0dd727-6833-5f5d-a1e8-c0d421935c74 = { name = "RegisterMismatch", path = "RegisterMismatch"}
+73fda715-febb-5522-a0fc-086e91958f61 = { name = "RegisterHindsight", path = "RegisterHindsight"}
+abb2e897-52bf-5d28-a379-6ca321e3b878 = { name = "RegisterMismatchCommon", path = "RegisterMismatchCommon"}
+ee0d8d85-fa18-576c-9601-66ebb12862d9 = { name = "RegisterMismatchCuda", path = "RegisterMismatchCuda"}
+36121b08-3789-5198-aff2-59a3443d9b59 = { name = "RegisterFit", path = "RegisterFit"}
+b981a1b5-4587-53b0-9c3d-454c648f6f8d = { name = "RegisterOptimize", path = "RegisterOptimize"}
+2da29180-479c-54ad-8515-a35e7bf22023 = { name = "BlockRegistration", path = "BlockRegistration"}
+3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }

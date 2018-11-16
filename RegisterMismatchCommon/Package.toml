@@ -1,0 +1,3 @@
+name = "RegisterMismatchCommon"
+uuid = "abb2e897-52bf-5d28-a379-6ca321e3b878"
+repo = "git@github.com:HolyLab/RegisterMismatchCommon.jl.git"
