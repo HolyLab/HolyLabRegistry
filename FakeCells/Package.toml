@@ -1,3 +1,3 @@
 name = "FakeCells"
 uuid = "597c7b4e-c0ec-11e8-1347-855d2b7c9c20"
-repo = "git@github.com:HolyLab/FakeCells.jl.git"
+repo = "https://github.com/HolyLab/FakeCells.jl.git"

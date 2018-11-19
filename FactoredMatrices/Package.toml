@@ -1,3 +1,3 @@
 name = "FactoredMatrices"
 uuid = "13d07ad6-c0d4-11e8-35b1-91a532e61cc8"
-repo = "git@github.com:HolyLab/FactoredMatrices.jl.git"
+repo = "https://github.com/HolyLab/FactoredMatrices.jl.git"
