@@ -11,7 +11,7 @@ Still need to add most of our lab packages to this registry.
 
 
 # To use git protocol in GitHub
-(This instruction comes form https://help.github.com/articles/connecting-to-github-with-ssh/)
+(This instruction comes from https://help.github.com/articles/connecting-to-github-with-ssh/)
 
 1. Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
