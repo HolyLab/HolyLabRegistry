@@ -1,3 +1,3 @@
 name = "OptimizeIVQ"
 uuid = "7ecfceec-b993-11e8-0809-a584061f8d98"
-repo = "https://github.com/HolyLab/OptimizeIVQ.jl.git"
+repo = "git@github.com:HolyLab/OptimizeIVQ.jl.git"

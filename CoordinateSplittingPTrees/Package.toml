@@ -1,3 +1,3 @@
 name = "CoordinateSplittingPTrees"
 uuid = "768c9593-c1e5-5107-8576-9ed3f4373482"
-repo = "https://github.com/timholy/CoordinateSplittingPTrees.jl.git"
+repo = "git@github.com:timholy/CoordinateSplittingPTrees.jl.git"
