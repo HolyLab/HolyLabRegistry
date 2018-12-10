@@ -1,6 +1,6 @@
 name = "HolyLabRegistry"
 uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
-repo = "git@github.com:HolyLab/HolyLabRegistry.git"
+repo = "https://github.com/HolyLab/HolyLabRegistry.git"
 
 description = """
 Holylab julia package registry where people can
