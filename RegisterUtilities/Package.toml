@@ -1,3 +1,3 @@
 name = "RegisterUtilities"
 uuid = "d4862ba2-f42c-5aeb-af4f-96a8884a16c4"
-repo = "https://github.com/HolyLab/RegisterUtilities.jl.git"
+repo = "git@github.com:HolyLab/RegisterUtilities.jl.git"

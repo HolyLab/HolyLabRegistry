@@ -1,3 +1,3 @@
 name = "CachedInterpolations"
 uuid = "b9709bfb-d23d-5560-8276-8c35c4b76823"
-repo = "https://github.com/HolyLab/CachedInterpolations.jl.git"
+repo = "git@github.com:HolyLab/CachedInterpolations.jl.git"

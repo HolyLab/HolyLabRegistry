@@ -1,3 +1,3 @@
 name = "RegisterDeformation"
 uuid = "c19381b7-cf49-59d7-881c-50dfbd227eaf"
-repo = "https://github.com/HolyLab/RegisterDeformation.jl.git"
+repo = "git@github.com:HolyLab/RegisterDeformation.jl.git"

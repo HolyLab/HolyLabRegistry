@@ -1,3 +1,3 @@
 name = "BoxTrees"
 uuid = "9cc36475-e10c-57f8-b33d-19dcb253ebc3"
-repo = "https://github.com/HolyLab/BoxTrees.jl.git"
+repo = "git@github.com:HolyLab/BoxTrees.jl.git"

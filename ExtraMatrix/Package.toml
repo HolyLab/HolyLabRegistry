@@ -1,3 +1,3 @@
 name = "ExtraMatrix"
 uuid = "189fa2b0-c0d4-11e8-1b41-c5eb7281c27c"
-repo = "https://github.com/HolyLab/ExtraMatrix.jl.git"
+repo = "git@github.com:HolyLab/ExtraMatrix.jl.git"
