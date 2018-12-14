@@ -1,0 +1,3 @@
+name = "NeighborhoodClustering"
+uuid = "d32f3a2f-26fa-5ce0-a2ac-000c59351c13"
+repo = "git@github.com:HolyLab/NeighborhoodClustering.jl.git"
