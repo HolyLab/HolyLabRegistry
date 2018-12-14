@@ -38,3 +38,4 @@ b981a1b5-4587-53b0-9c3d-454c648f6f8d = { name = "RegisterOptimize", path = "Regi
 2da29180-479c-54ad-8515-a35e7bf22023 = { name = "BlockRegistration", path = "BlockRegistration"}
 3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
 f54becb8-3809-5a58-8f2d-748913078968 = { name = "TileTreesGUI", path = "TileTreesGUI" }
+d32f3a2f-26fa-5ce0-a2ac-000c59351c13 = { name = "NeighborhoodClustering", path = "NeighborhoodClustering" }
