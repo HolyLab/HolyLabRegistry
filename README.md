@@ -58,8 +58,8 @@ Still need to add most of our lab packages to this registry.
   - Edit those files appropriately.
     - Deps.toml : include all the dependencies
     - Package.toml : Package name, UUID, location of the repository
-    - Versions.toml : git-tree-sha values according to version numbers
-      Your can find this value with git command at the package root directory.
+    - Versions.toml : git-tree-sha values according to version numbers.
+      You can find this value with git command at the package root directory.
       ```
       $ git cat-file -p v0.1.0
       ```
@@ -68,8 +68,8 @@ Still need to add most of our lab packages to this registry.
       ```
       $ git cat-file -p master
       ```
-      In this case, every time master branch is updated with new commit, you need to update this value also in this registry.
-  - Add a entry of the package in Registry.toml file. As an example, add below line if your package name is 'RFFT', directory name is also 'RFFT' and UUID is `3bd9afcd....`
+      In this case, every time master branch in the repository of the package is updated with new commit, you need to update this value also in this registry.
+  - Add an entry of the package in Registry.toml file. As an example, add a below line if your package name is 'RFFT', directory name is also 'RFFT' and UUID is `3bd9afcd....`
     ```
     3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
     ```
