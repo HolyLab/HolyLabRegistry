@@ -53,12 +53,31 @@ Still need to add most of our lab packages to this registry.
     - Click Add SSH key.
 
 # For package developer
+- How to prepare your package and related repository before register : Generating 'Project.toml' file
+    - Initiate your package.
+        - Change your working directory to julia package developing directory ex) ~/.julia/dev/
+        - Generate a package. Let your package name be 'MyPkg', then
+            ```julia
+            (v1.0) pkg> generate MyPkg
+            ```
+        - If you don't have existing package under the developing directory, this will generate a 'MyPkg' directory, 'Project.toml' including UUID and smaple source files.
+        - If you already have your package at the location, this will cause an error. In this case, you can generate 'Porject.toml' file at different location temporarily and  copy only the file to your package root.
+    - Adding dependent packages.
+        - Change your working directory to 'MyPkg' now.
+        - Activate and add dependencies. Let those are 'SubPkg1, SugPkg2'.
+            ```julia
+            (v1.0) pkg> activate .
+            (v1.0) pkg> add SubPkg1 SubPkg2
+            ```
+        - This will add the dependent packages under '[dpes]' field in the 'Project.toml' and generate 'Manifest.toml' file. This 'Manifest.toml' file includes specific versions of the dependent packages resolved according to your current environment. (Usually, this file is excluded when you commit your package to a repository - would be convenient if you add this to .gitignore file)
+    - Push your package to a repository.
+
 - How to add your package to HolyLabRegistry
-  - Make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml under root directory (It would be easy to begin with just copy related files from other existing entry in the registry)
+  - Make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml under root directory (It would be easy to begin with just copy related files from other existing directory in the registry)
   - Edit those files appropriately.
-    - Deps.toml : include all the dependencies
+    - Deps.toml : include all the dependencies (You can copy some lines from 'Project.toml' file of your package)
     - Package.toml : Package name, UUID, location of the repository
-    - Versions.toml : git-tree-sha values according to version numbers.
+    - Versions.toml : git-tree-sha values according to version numbers
       You can find this value with git command at the package root directory.
       ```
       $ git cat-file -p v0.1.0
@@ -68,7 +87,7 @@ Still need to add most of our lab packages to this registry.
       ```
       $ git cat-file -p master
       ```
-      In this case, every time master branch in the repository of the package is updated with new commit, you need to update this value also in this registry.
+      In this case, every time master branch in the repository of the package is updated with new commit, you need to update this git-tree-sha value also in this registry.
   - Add an entry of the package in Registry.toml file. As an example, add a below line if your package name is 'RFFT', directory name is also 'RFFT' and UUID is `3bd9afcd....`
     ```
     3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
