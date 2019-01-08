@@ -1,5 +1,5 @@
 # HolyLabRegistry
-This is a HolyLab private registry to use lab packages according to julia 0.7 Pkg3 design.
+This is a HolyLab registry to use lab packages according to julia 0.7 Pkg3 design.
 
 # Usage
 Clone this repository under DEPOT_PATH/registries. Then, we can use lab private
@@ -11,7 +11,8 @@ Still need to add most of our lab packages to this registry.
 
 
 # To use git protocol in GitHub
-(This instruction comes from https://help.github.com/articles/connecting-to-github-with-ssh/)
+This instruction is for Linux users and comes from https://help.github.com/articles/connecting-to-github-with-ssh/.
+For windows users, you can get some information at https://gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23
 
 1. Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
@@ -52,6 +53,7 @@ Still need to add most of our lab packages to this registry.
     - Paste your copied pulic key into the "Key" field
     - Click Add SSH key.
 
+
 # For package developer
 - How to prepare your package and related repository before register : Generating 'Project.toml' file
     - Initiate your package.
@@ -66,18 +68,18 @@ Still need to add most of our lab packages to this registry.
         - Change your working directory to 'MyPkg' now.
         - Activate and add dependencies. Let those are 'SubPkg1, SugPkg2'.
             ```julia
-            (v1.0) pkg> activate .
-            (v1.0) pkg> add SubPkg1 SubPkg2
+            (v1.0)  pkg> activate .
+            (MyPkg) pkg> add SubPkg1 SubPkg2
             ```
         - This will add the dependent packages under '[dpes]' field in the 'Project.toml' and generate 'Manifest.toml' file. This 'Manifest.toml' file includes specific versions of the dependent packages resolved according to your current environment. (Usually, this file is excluded when you commit your package to a repository - would be convenient if you add this to .gitignore file)
     - Push your package to a repository.
 
 - How to add your package to HolyLabRegistry
-  - Make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml under root directory (It would be easy to begin with just copy related files from other existing directory in the registry)
+  - Make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml under root directory of HolyLabRegistry (It would be easy to begin with just copy related files from other existing directory in the registry)
   - Edit those files appropriately.
     - Deps.toml : include all the dependencies (You can copy some lines from 'Project.toml' file of your package)
     - Package.toml : Package name, UUID, location of the repository
-    - Versions.toml : git-tree-sha values according to version numbers
+    - Versions.toml : git-tree-sha values according to version numbers.
       You can find this value with git command at the package root directory.
       ```
       $ git cat-file -p v0.1.0
@@ -102,7 +104,7 @@ Still need to add most of our lab packages to this registry.
               user_regs = joinpath(DEPOT_PATH[1],"registries");
               mkpath(user_regs);
               all_registries = Dict("General" => "https://github.com/JuliaRegistries/General.git",
-                            "HolyLabRegistry" => "git@github.com:HolyLab/HolyLabRegistry.git");
+                            "HolyLabRegistry" => "https://github.com/HolyLab/HolyLabRegistry.git");
               Base.shred!(LibGit2.CachedCredentials()) do creds
                 for (reg, url) in all_registries
                   path = joinpath(user_regs, reg);
@@ -111,7 +113,10 @@ Still need to add most of our lab packages to this registry.
               end'
     - julia -e 'using Pkg; Pkg.build(); Pkg.test("RegisterFit"; coverage=false)'
     ```
-  - Assign your private ssh key which is paired with a public key in your Github account to the package in the Travis site.
+  - Assign your private ssh key which is paired with a public key in your Github account to the package in the Travis site. (HolyLabRegistry is now open to public. You don't need this step. But, if you are using private packages registered in this registry, you will need this step for accessing those packages)
     - Copies the contents of the private key ('id_rsa' file generated in the 'To use git protocol in GitHub' section - not 'id_rsa.pub') in the local machine to your clipboard.
     - Go to the setup page of the package in the Travis site you want to make to access this registry. (You can get there by choosing the package in your Travis repositories, clicking ‘More options’ button on the upper right corner and selecting ‘setting’ menu.)
     - Assign the private key in the clipboard to the ‘SSH Key’ field.
+
+- See also
+    - Creating Registry : https://discourse.julialang.org/t/creating-a-registry/12094
