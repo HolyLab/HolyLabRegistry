@@ -1,3 +1,3 @@
 name = "ImagineHardware"
 uuid = "75ec5d3c-0ed3-11e9-24c7-e530058603ef"
-repo = "git@github.com:HolyLab/ImagineHardware.jl.git"
+repo = "https://github.com/HolyLab/ImagineHardware.jl.git"
