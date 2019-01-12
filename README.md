@@ -95,7 +95,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
     3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
     ```
 
-- How to make a package be able to access this registry during the travis test
+- How to make a package be able to access this registry during the travis and appveyor tests
   - Include below lines in the script section of .travis.yml file in the root directory of your package (as an example, let your package name be 'RegisterFit')
   ```
   script:
@@ -113,10 +113,14 @@ For windows users, you can get some information at https://gist.github.com/bsara
               end'
     - julia -e 'using Pkg; Pkg.build(); Pkg.test("RegisterFit"; coverage=false)'
     ```
+  - A similar script should be used with Appveyor (for testing on Windows).  However because multiline commands and variables are nightmarish in Windows it's recommended that you move the Julia command above into a separate script that gets called from `appveyor.yml`.  You can call the same script from `.travis.yml` as well to avoid code duplication.  See https://github.com/HolyLab/ImagineInterface for an example.
   - Assign your private ssh key which is paired with a public key in your Github account to the package in the Travis site. (HolyLabRegistry is now open to public. You don't need this step. But, if you are using private packages registered in this registry, you will need this step for accessing those packages)
     - Copies the contents of the private key ('id_rsa' file generated in the 'To use git protocol in GitHub' section - not 'id_rsa.pub') in the local machine to your clipboard.
     - Go to the setup page of the package in the Travis site you want to make to access this registry. (You can get there by choosing the package in your Travis repositories, clicking ‘More options’ button on the upper right corner and selecting ‘setting’ menu.)
     - Assign the private key in the clipboard to the ‘SSH Key’ field.
-
+- Making a HolyLab package public on Github
+    - Make the package repo public by changing its Github settings.
+    - Be sure that you've done the same for any *dependencies* of the package.
+    - Submit a PR to this repo that changes the `url` field in `Project.toml` to use the https protocol instead of ssh (must also be done for any dependencies that you've made public).
 - See also
     - Creating Registry : https://discourse.julialang.org/t/creating-a-registry/12094
