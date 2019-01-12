@@ -43,3 +43,4 @@ d32f3a2f-26fa-5ce0-a2ac-000c59351c13 = { name = "NeighborhoodClustering", path =
 96ae54c0-0dff-11e9-11b2-27e67f6cc5ea = { name = "UnitAliases", path = "UnitAliases" }
 75ec5d3c-0ed3-11e9-24c7-e530058603ef = { name = "ImagineHardware", path = "ImagineHardware" }
 a9d8408c-0fb1-11e9-0067-cb067474114e = { name = "ImagineInterface", path = "ImagineInterface" }
+b89da37c-15e8-11e9-0b03-ab0995a60613 = { name = "CachedCalls", path = "CachedCalls" }
