@@ -1,0 +1,3 @@
+name = "RegisterDriver"
+uuid = "935ac36e-2656-11e9-1e3b-cbaa636797af"
+repo = "git@github.com:HolyLab/RegisterDriver.jl.git"

@@ -1,0 +1,3 @@
+name = "RegisterWorkerShell"
+uuid = "978d31ce-2656-11e9-22d6-b5c46a1a3d3e"
+repo = "git@github.com:HolyLab/RegisterWorkerShell.jl.git"

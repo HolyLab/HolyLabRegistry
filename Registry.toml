@@ -48,3 +48,5 @@ d514a27a-15fd-11e9-2877-55d10791f35b = { name = "ImagineAnalyses", path = "Imagi
 43b7f2cc-1a9d-11e9-093e-178b9f97357d = { name = "ImagineProcedures", path = "ImagineProcedures" }
 ff578f10-1de7-11e9-075b-65d52eaf0ec5 = { name = "ImagineWorker", path = "ImagineWorker" }
 28fce3f0-1dbc-11e9-10e3-e71e6ceb4e7c = { name = "Imagine", path = "Imagine" }
+978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "RegisterWorkerShell" }
+935ac36e-2656-11e9-1e3b-cbaa636797af = { name = "RegisterDriver", path = "RegisterDriver" }
