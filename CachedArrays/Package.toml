@@ -1,0 +1,3 @@
+name = "CachedArrays"
+uuid = "d8fd01e4-1764-11e9-0a01-8f76bebf08d8"
+repo = "https://github.com/HolyLab/CachedArrays.jl.git"
