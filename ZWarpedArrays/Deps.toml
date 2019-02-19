@@ -1,0 +1,8 @@
+["0.0-0.1"]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+CachedArrays = "d8fd01e4-1764-11e9-0a01-8f76bebf08d8"
+CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
+ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
