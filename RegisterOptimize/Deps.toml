@@ -1,4 +1,4 @@
-["0.0-0.1"]
+["0.0-0.2"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
@@ -25,3 +25,7 @@ RegisterPenalty = "464fa2a9-b19c-5c59-8698-f58c971f971e"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 RegisterUtilities = "d4862ba2-f42c-5aeb-af4f-96a8884a16c4"
 Rotations = "6038ab10-8711-5258-84ad-4b1120ba62dc"
+
+["0.2"]
+NLsolve = "2774e3e8-f4cf-5e23-947b-6d7e65073b56"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
