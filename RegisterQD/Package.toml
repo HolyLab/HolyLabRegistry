@@ -1,3 +1,3 @@
-name = "RegisterOptimize"
-uuid = "b981a1b5-4587-53b0-9c3d-454c648f6f8d"
-repo = "git@github.com:HolyLab/RegisterOptimize.jl.git"
+name = "RegisterQD"
+uuid = "ac24ea0c-1830-11e9-18d4-81f172323054"
+repo = "git@github.com:HolyLab/RegisterQD.jl.git"
