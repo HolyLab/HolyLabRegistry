@@ -52,3 +52,4 @@ ff578f10-1de7-11e9-075b-65d52eaf0ec5 = { name = "ImagineWorker", path = "Imagine
 935ac36e-2656-11e9-1e3b-cbaa636797af = { name = "RegisterDriver", path = "RegisterDriver" }
 d8fd01e4-1764-11e9-0a01-8f76bebf08d8 = { name = "CachedArrays", path = "CachedArrays" }
 26d16474-33ca-11e9-0261-c59b979c6e18 = { name = "ZWarpedArrays", path = "ZWarpedArrays" }
+ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD" }
