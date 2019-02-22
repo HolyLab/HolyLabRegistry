@@ -1,3 +1,3 @@
 name = "QuadDIRECT"
 uuid = "dae52e8d-d666-5120-a592-9e15c33b8d7a"
-repo = "git@github.com:timholy/QuadDIRECT.jl.git"
+repo = "https://github.com/timholy/QuadDIRECT.jl.git"
