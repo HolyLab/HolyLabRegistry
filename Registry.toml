@@ -54,3 +54,4 @@ d8fd01e4-1764-11e9-0a01-8f76bebf08d8 = { name = "CachedArrays", path = "CachedAr
 26d16474-33ca-11e9-0261-c59b979c6e18 = { name = "ZWarpedArrays", path = "ZWarpedArrays" }
 ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "InterleavedImages" }
+f5ac0a76-2658-11e9-04c3-3fcaa17c41f6 = { name = "RegisterWorkerApertures", path = "RegisterWorkerApertures" }
