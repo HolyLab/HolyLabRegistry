@@ -1,0 +1,3 @@
+name = "InterleavedImages"
+uuid = "35e57d1e-36d7-11e9-1ca9-f74434b2bc55"
+repo = "https://github.com/HolyLab/InterleavedImages.jl.git"
