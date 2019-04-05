@@ -1,3 +1,3 @@
 name = "RegisterWorkerApertures"
 uuid = "a0a6461a-57d1-11e9-363b-71a271cc5699"
-repo = "https://github.com/HolyLab/RegisterWorkerApertures.jl.git"
+repo = "git@github.com:HolyLab/RegisterWorkerApertures.jl.git"
