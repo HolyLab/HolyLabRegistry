@@ -55,3 +55,4 @@ d8fd01e4-1764-11e9-0a01-8f76bebf08d8 = { name = "CachedArrays", path = "CachedAr
 ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "InterleavedImages" }
 a0a6461a-57d1-11e9-363b-71a271cc5699 = { name = "RegisterWorkerApertures", path = "RegisterWorkerApertures" }
+2857f282-5c94-11e9-0b5d-cb5f26255b42 = { name = "ImageInterpLast", path = "ImageInterpLast" }
