@@ -1,4 +1,4 @@
 authors = ["Tim Holy <tim.holy@gmail.com>"]
 name = "FakeCells"
-repo = "https://github.com/HolyLab/FakeCells.jl.git"
+repo = "git@github.com:HolyLab/FakeCells.jl.git"
 uuid = "597c7b4e-c0ec-11e8-1347-855d2b7c9c20"
