@@ -42,6 +42,7 @@ ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD
 b89da37c-15e8-11e9-0b03-ab0995a60613 = { name = "CachedCalls", path = "CachedCalls" }
 b9709bfb-d23d-5560-8276-8c35c4b76823 = { name = "CachedInterpolations", path = "CachedInterpolations" }
 b981a1b5-4587-53b0-9c3d-454c648f6f8d = { name = "RegisterOptimize", path = "RegisterOptimize" }
+bc20c4a6-ae8f-539c-9805-f1e868603a0f = { name = "LinearKernelModels", path = "L/LinearKernelModels" }
 c19381b7-cf49-59d7-881c-50dfbd227eaf = { name = "RegisterDeformation", path = "RegisterDeformation" }
 cd6f60fb-236b-5882-ad4f-250d5433a9a7 = { name = "TileTrees", path = "TileTrees" }
 d32f3a2f-26fa-5ce0-a2ac-000c59351c13 = { name = "NeighborhoodClustering", path = "NeighborhoodClustering" }
