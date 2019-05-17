@@ -133,6 +133,32 @@ You have two options:
 
 ## Registering your package with HolyLabRegistry
 
+### Using Registrator
+
+Check out a local copy of https://github.com/GunnarFarneback/Registrator.jl.
+(Note that this is different from the "official" Registrator, and arose from
+https://github.com/JuliaRegistries/Registrator.jl/pull/45.) Then:
+
+- navigate to HolyLabRegistry, which for me is at `/home/tim/.julia/registries/HolyLabRegistry`
+- update to the latest `master` branch
+- check out a new branch, e.g., `git checkout -b teh/SomeNewPkg`
+- start Julia and enter the following:
+```julia
+using Registrator, SomeNewPkg
+register(SomeNewPkg, "/home/tim/.julia/registries/HolyLabRegistry")
+```
+  where you replace the specific package name and path to the appropriate value on your system.
+  This will add a new commit to the branch of HolyLabRegistry you just created
+- Submit the branch as a PR to HolyLabRegistry
+- Once the PR merges, from the HolyLabRegistry directory do
+```
+$ git checkout master
+$ git pull
+$ git branch -D teh/SomeNewPkg
+```
+
+### Manual approach
+
 - Under the root directory of HolyLabRegistry, make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml
   (To get started, you may want to copy related files from another existing directory in the registry)
 - Edit those files appropriately:
@@ -208,8 +234,14 @@ This is required only if your package uses other private packages.
 
 ### In HolyLabRegistry
 
-- In the package's directory, update `Versions.toml` and, if necessary, `Compat.toml` and `Deps.toml`.
-  Use the sha from the `git cat-file` command above.
+#### Using Registrator
+
+Just repeat the steps above for the initial registration.
+
+#### Manual approach
+
+In the package's directory, update `Versions.toml` and, if necessary, `Compat.toml` and `Deps.toml`.
+Use the sha from the `git cat-file` command above.
 
 ## Making a HolyLab package public on Github
 
