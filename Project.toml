@@ -1,0 +1,16 @@
+name = "HolyLabRegistry"
+uuid = "60d581ba-a110-11e9-1ea8-7112b44139e2"
+authors = ["Cody-G <codyjgreer@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
