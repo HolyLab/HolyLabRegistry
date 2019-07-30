@@ -36,6 +36,7 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "RegisterWorkerShell" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "BoxTrees" }
 a0a6461a-57d1-11e9-363b-71a271cc5699 = { name = "RegisterWorkerApertures", path = "RegisterWorkerApertures" }
+30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "RegisterWorkerAperturesMismatch" }
 a9d8408c-0fb1-11e9-0067-cb067474114e = { name = "ImagineInterface", path = "ImagineInterface" }
 abb2e897-52bf-5d28-a379-6ca321e3b878 = { name = "RegisterMismatchCommon", path = "RegisterMismatchCommon" }
 ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD" }
