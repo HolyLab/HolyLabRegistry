@@ -16,6 +16,7 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 2b713a72-c0d4-11e8-0e3e-e7c72182117a = { name = "MergePairwise", path = "MergePairwise" }
 2da29180-479c-54ad-8515-a35e7bf22023 = { name = "BlockRegistration", path = "BlockRegistration" }
 304b7e5e-c0d4-11e8-1391-db3dfdb9ef20 = { name = "CellSegmentation", path = "CellSegmentation" }
+30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "RegisterWorkerAperturesMismatch" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "InterleavedImages" }
 36121b08-3789-5198-aff2-59a3443d9b59 = { name = "RegisterFit", path = "RegisterFit" }
 3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
@@ -34,9 +35,9 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 935ac36e-2656-11e9-1e3b-cbaa636797af = { name = "RegisterDriver", path = "RegisterDriver" }
 96ae54c0-0dff-11e9-11b2-27e67f6cc5ea = { name = "UnitAliases", path = "UnitAliases" }
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "RegisterWorkerShell" }
+99b0285a-20f0-11e9-0283-7f418f478feb = { name = "FastScanning", path = "F/FastScanning" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "BoxTrees" }
 a0a6461a-57d1-11e9-363b-71a271cc5699 = { name = "RegisterWorkerApertures", path = "RegisterWorkerApertures" }
-30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "RegisterWorkerAperturesMismatch" }
 a9d8408c-0fb1-11e9-0067-cb067474114e = { name = "ImagineInterface", path = "ImagineInterface" }
 abb2e897-52bf-5d28-a379-6ca321e3b878 = { name = "RegisterMismatchCommon", path = "RegisterMismatchCommon" }
 ac24ea0c-1830-11e9-18d4-81f172323054 = { name = "RegisterQD", path = "RegisterQD" }
