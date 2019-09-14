@@ -1,0 +1,4 @@
+authors = ["Cody-G <codyjgreer@gmail.com>"]
+name = "RoiTool"
+repo = "https://github.com/HolyLab/RoiTool.jl.git"
+uuid = "1bab902d-36fe-489f-8fc7-6d2618eb76be"
