@@ -28,6 +28,7 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 56f27cf3-5d2e-53a9-a1df-46b7fbe4d4d0 = { name = "DFoFArrays", path = "D/DFoFArrays" }
 597c7b4e-c0ec-11e8-1347-855d2b7c9c20 = { name = "FakeCells", path = "FakeCells" }
 67712758-55e7-5c3c-8e85-dda1d7758434 = { name = "RegisterCore", path = "RegisterCore" }
+6a7ac665-a291-440c-97b5-1e881457f238 = { name = "StitchDPI", path = "S/StitchDPI" }
 73fda715-febb-5522-a0fc-086e91958f61 = { name = "RegisterHindsight", path = "RegisterHindsight" }
 75ec5d3c-0ed3-11e9-24c7-e530058603ef = { name = "ImagineHardware", path = "ImagineHardware" }
 768c9593-c1e5-5107-8576-9ed3f4373482 = { name = "CoordinateSplittingPTrees", path = "CoordinateSplittingPTrees" }
