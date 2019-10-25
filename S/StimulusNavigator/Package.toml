@@ -1,0 +1,4 @@
+authors = ["Tim Holy <tim.holy@gmail.com>"]
+name = "StimulusNavigator"
+repo = "git@github.com:HolyLab/StimulusNavigator.jl.git"
+uuid = "629045b3-4d2b-4a55-9b3a-009cda0386a9"
