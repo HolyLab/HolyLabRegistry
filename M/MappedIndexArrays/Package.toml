@@ -1,0 +1,4 @@
+authors = ["ChantalJuntao <juntao.chen@wustl.edu>"]
+name = "MappedIndexArrays"
+repo = "git@github.com:HolyLab/MappedIndexArrays.jl.git"
+uuid = "c3b4e2a2-e463-46f1-b1f5-667b5e187791"
