@@ -4,6 +4,7 @@ repo = "https://github.com/HolyLab/HolyLabRegistry.git"
 uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 
 [packages]
+0c2e7f7b-659f-4d17-98b1-b653e143444e = { name = "Autosampler", path = "A/Autosampler" }
 0de75c66-c0d4-11e8-3de9-d1632eed9267 = { name = "ISVD", path = "ISVD" }
 0f17980a-d2b6-11e8-2799-edcc513b22eb = { name = "HistogramPyramids", path = "HistogramPyramids" }
 13d07ad6-c0d4-11e8-35b1-91a532e61cc8 = { name = "FactoredMatrices", path = "FactoredMatrices" }
