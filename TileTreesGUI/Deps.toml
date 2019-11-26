@@ -1,8 +1,4 @@
 ["0.0-0.1"]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 BoxTrees = "9cc36475-e10c-57f8-b33d-19dcb253ebc3"
 Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
@@ -17,3 +13,9 @@ ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 TileTrees = "cd6f60fb-236b-5882-ad4f-250d5433a9a7"
+
+["0.0-0.1.0"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
