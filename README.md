@@ -93,7 +93,7 @@ You have two options:
   ```julia
   julia> using PkgTemplates
 
-  julia> t = Template(ssh=true)  # creates a template for your personal account
+  julia> t = Template(ssh=true, plugins=[TravisCI()])  # creates a template for your personal account
   Template:
       → User: timholy
       → Host: github.com
@@ -111,7 +111,7 @@ You have two options:
   If you plan to host your new package on `HolyLab`, instead use
 
   ```julia
-  julia> t = Template(user="HolyLab", ssh=true)
+  julia> t = Template(user="HolyLab", ...)
   ```
 
 ### Adding dependent packages
