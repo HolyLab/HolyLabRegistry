@@ -133,18 +133,17 @@ You have two options:
 
 ## Registering your package with HolyLabRegistry
 
-### Using Registrator
+### Using LocalRegistry
 
-Check out a local copy of https://github.com/GunnarFarneback/Registrator.jl.
-(Note that this is different from the "official" Registrator, and arose from
-https://github.com/JuliaRegistries/Registrator.jl/pull/45.) Then:
+Check out a local copy of https://github.com/GunnarFarneback/LocalRegistry.jl.
+Then:
 
 - navigate to HolyLabRegistry, which for me is at `/home/tim/.julia/registries/HolyLabRegistry`
 - update to the latest `master` branch
 - check out a new branch, e.g., `git checkout -b teh/SomeNewPkg`
 - start Julia and enter the following:
 ```julia
-using Registrator, SomeNewPkg
+using LocalRegistry, SomeNewPkg
 register(SomeNewPkg, "/home/tim/.julia/registries/HolyLabRegistry")
 ```
   where you replace the specific package name and path to the appropriate value on your system.
@@ -156,6 +155,7 @@ $ git checkout master
 $ git pull
 $ git branch -D teh/SomeNewPkg
 ```
+- Push tags for the new release (`git tag -a vx.y.z` and then `git push --tags`)
 
 ### Manual approach
 
