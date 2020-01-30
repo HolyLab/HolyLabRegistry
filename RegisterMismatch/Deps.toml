@@ -1,14 +1,20 @@
-["0.0-0.2"]
+[0]
+FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
+MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
+PaddedViews = "5432bcbf-9aad-5242-b902-cca2824c8663"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
+RFFT = "3bd9afcd-55df-531a-9b34-dc642dce7b95"
+RegisterCore = "67712758-55e7-5c3c-8e85-dda1d7758434"
+RegisterMismatchCommon = "abb2e897-52bf-5d28-a379-6ca321e3b878"
+
+["0-0.2"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 CenterIndexedArrays = "46a7138f-0d70-54e1-8ada-fb8296f91f24"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
-RegisterCore = "67712758-55e7-5c3c-8e85-dda1d7758434"
-RegisterMismatchCommon = "abb2e897-52bf-5d28-a379-6ca321e3b878"
-RFFT = "3bd9afcd-55df-531a-9b34-dc642dce7b95"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
-PaddedViews = "5432bcbf-9aad-5242-b902-cca2824c8663"
+
+["0.3-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
