@@ -157,7 +157,7 @@ $ git branch -D teh/SomeNewPkg
 ```
 - Push tags for the new release (`git tag -a vx.y.z` and then `git push --tags`)
 
-### Manual approach
+### Manual approach (not recommended)
 
 - Under the root directory of HolyLabRegistry, make directory including Compat.toml, Deps.toml, Package.toml and Versions.toml
   (To get started, you may want to copy related files from another existing directory in the registry)
@@ -234,11 +234,11 @@ This is required only if your package uses other private packages.
 
 ### In HolyLabRegistry
 
-#### Using Registrator
+#### Using LocalRegistry
 
-Just repeat the steps above for the initial registration.
+Just repeat the steps above for the initial registration, except that you don't have to specify the registry.
 
-#### Manual approach
+#### Manual approach (not recommended)
 
 In the package's directory, update `Versions.toml` and, if necessary, `Compat.toml` and `Deps.toml`.
 Use the sha from the `git cat-file` command above.
