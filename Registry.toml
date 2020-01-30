@@ -1,7 +1,11 @@
-description = "Holylab julia package registry where people can\nregister any package within lab scope.\n"
 name = "HolyLabRegistry"
-repo = "https://github.com/HolyLab/HolyLabRegistry.git"
 uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
+repo = "https://github.com/HolyLab/HolyLabRegistry.git"
+
+description = """
+Holylab julia package registry where people can
+register any package within lab scope.
+"""
 
 [packages]
 0c2e7f7b-659f-4d17-98b1-b653e143444e = { name = "Autosampler", path = "A/Autosampler" }
@@ -16,7 +20,6 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 2857f282-5c94-11e9-0b5d-cb5f26255b42 = { name = "ImageInterpLast", path = "ImageInterpLast" }
 28fce3f0-1dbc-11e9-10e3-e71e6ceb4e7c = { name = "Imagine", path = "Imagine" }
 2b713a72-c0d4-11e8-0e3e-e7c72182117a = { name = "MergePairwise", path = "MergePairwise" }
-2da29180-479c-54ad-8515-a35e7bf22023 = { name = "BlockRegistration", path = "BlockRegistration" }
 304b7e5e-c0d4-11e8-1391-db3dfdb9ef20 = { name = "CellSegmentation", path = "CellSegmentation" }
 30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "RegisterWorkerAperturesMismatch" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "InterleavedImages" }
@@ -38,6 +41,7 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 7ecfceec-b993-11e8-0809-a584061f8d98 = { name = "OptimizeIVQ", path = "OptimizeIVQ" }
 935ac36e-2656-11e9-1e3b-cbaa636797af = { name = "RegisterDriver", path = "RegisterDriver" }
 96ae54c0-0dff-11e9-11b2-27e67f6cc5ea = { name = "UnitAliases", path = "UnitAliases" }
+96be3cfc-dfc9-41f0-9424-fd41ed36fd5e = { name = "BlockRegistration", path = "B/BlockRegistration" }
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "RegisterWorkerShell" }
 99b0285a-20f0-11e9-0283-7f418f478feb = { name = "FastScanning", path = "F/FastScanning" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "BoxTrees" }

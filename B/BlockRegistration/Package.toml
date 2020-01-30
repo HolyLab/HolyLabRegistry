@@ -1,0 +1,3 @@
+name = "BlockRegistration"
+uuid = "96be3cfc-dfc9-41f0-9424-fd41ed36fd5e"
+repo = "https://github.com/HolyLab/BlockRegistration.jl.git"
