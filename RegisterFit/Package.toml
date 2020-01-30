@@ -1,4 +1,4 @@
 authors = ["Tim Holy <tim.holy@gmail.com>"]
 name = "RegisterFit"
-repo = "git@github.com:HolyLab/RegisterFit.jl.git"
+repo = "https://github.com/HolyLab/RegisterFit.jl.git"
 uuid = "36121b08-3789-5198-aff2-59a3443d9b59"
