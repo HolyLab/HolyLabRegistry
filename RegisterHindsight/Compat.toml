@@ -1,2 +1,13 @@
-["0.1"]
+["0-0.1"]
 julia = "0.7-1"
+
+["0.2-0"]
+ImageCore = "0.8.1-0.8"
+Interpolations = "0.9-0.12"
+OffsetArrays = ["0.10-0.11", "1"]
+ProgressMeter = ["0.7-0.9", "1"]
+RegisterDeformation = "0.3.2-0.3"
+RegisterMismatch = "0.2-0.3"
+RegisterPenalty = "0.1-0.2"
+StaticArrays = "0.10-0.12"
+julia = "1.1.0-1"
