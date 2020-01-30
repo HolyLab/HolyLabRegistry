@@ -16,7 +16,6 @@ uuid = "c72e0888-c1c3-11e8-0741-c1bd6f46e678"
 2857f282-5c94-11e9-0b5d-cb5f26255b42 = { name = "ImageInterpLast", path = "ImageInterpLast" }
 28fce3f0-1dbc-11e9-10e3-e71e6ceb4e7c = { name = "Imagine", path = "Imagine" }
 2b713a72-c0d4-11e8-0e3e-e7c72182117a = { name = "MergePairwise", path = "MergePairwise" }
-2da29180-479c-54ad-8515-a35e7bf22023 = { name = "BlockRegistration", path = "BlockRegistration" }
 304b7e5e-c0d4-11e8-1391-db3dfdb9ef20 = { name = "CellSegmentation", path = "CellSegmentation" }
 30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "RegisterWorkerAperturesMismatch" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "InterleavedImages" }
