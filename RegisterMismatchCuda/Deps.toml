@@ -1,14 +1,19 @@
-["0.0-0.2"]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+[0]
 CUDAdrv = "c5f51814-7f29-56b8-a69c-e4d8f6be1fde"
 CUDAnative = "be33ccc6-a3ff-5ff2-a52e-74243cff1e17"
-CenterIndexedArrays = "46a7138f-0d70-54e1-8ada-fb8296f91f24"
 CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Primes = "27ebfcd6-29c5-5fa9-bf4b-fb8fc14df3ae"
 RegisterCore = "67712758-55e7-5c3c-8e85-dda1d7758434"
 RegisterMismatchCommon = "abb2e897-52bf-5d28-a379-6ca321e3b878"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
+
+["0-0.2"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+CenterIndexedArrays = "46a7138f-0d70-54e1-8ada-fb8296f91f24"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.3-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
