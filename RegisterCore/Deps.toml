@@ -12,3 +12,6 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0.2-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+
+["0.2.2-0"]
+Requires = "ae029012-a4dd-5104-9daa-d747884805df"
