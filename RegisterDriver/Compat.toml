@@ -1,2 +1,13 @@
-["0.1"]
+["0-0.1"]
 julia = "0.7-1"
+
+["0.2-0"]
+Formatting = "0.4"
+HDF5 = "0.12"
+ImageCore = "0.8.1-0.8"
+ImageMetadata = "0.9"
+JLD = "0.9"
+RegisterCore = "0.2"
+RegisterWorkerShell = "0.2"
+StaticArrays = "0.11-0.12"
+julia = "1"
