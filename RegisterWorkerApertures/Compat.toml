@@ -1,2 +1,22 @@
-["0.1-0.2"]
+["0-0.1"]
 julia = "0.7-1"
+
+["0.2-0"]
+CUDAdrv = "5"
+CUDAnative = "2"
+CoordinateTransformations = "0.5"
+CuArrays = "1"
+ImageCore = "0.8.1-0.8"
+Interpolations = "0.12"
+RegisterCore = "0.2.2-0.2"
+RegisterDeformation = "0.3"
+RegisterDriver = "0.2.1-0.2"
+RegisterFit = "0.1"
+RegisterMismatch = "0.3"
+RegisterMismatchCommon = "0.2"
+RegisterMismatchCuda = "0.3"
+RegisterOptimize = "0.3"
+RegisterPenalty = "0.2"
+RegisterWorkerShell = "0.2"
+StaticArrays = "0.12"
+julia = "1"
