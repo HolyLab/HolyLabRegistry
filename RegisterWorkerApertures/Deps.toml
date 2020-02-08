@@ -20,6 +20,3 @@ RegisterPenalty = "464fa2a9-b19c-5c59-8698-f58c971f971e"
 RegisterWorkerShell = "978d31ce-2656-11e9-22d6-b5c46a1a3d3e"
 SharedArrays = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
-
-
-[deps]
