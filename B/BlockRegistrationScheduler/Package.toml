@@ -1,0 +1,3 @@
+name = "BlockRegistrationScheduler"
+uuid = "5d60e731-3d07-5a0e-bd67-2fa232a8a749"
+repo = "https://github.com/HolyLab/BlockRegistrationScheduler.jl.git"
