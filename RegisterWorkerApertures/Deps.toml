@@ -22,7 +22,7 @@ Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
-["0-0.2.0"]
+["0-0.2"]
 RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
 
 ["0.2-0"]
