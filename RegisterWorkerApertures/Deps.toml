@@ -6,7 +6,6 @@ CuArrays = "3a865a2d-5b23-5a0f-bc46-62713ec82fae"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 RegisterCore = "67712758-55e7-5c3c-8e85-dda1d7758434"
 RegisterDeformation = "c19381b7-cf49-59d7-881c-50dfbd227eaf"
-RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
 RegisterFit = "36121b08-3789-5198-aff2-59a3443d9b59"
 RegisterMismatch = "3c0dd727-6833-5f5d-a1e8-c0d421935c74"
 RegisterMismatchCommon = "abb2e897-52bf-5d28-a379-6ca321e3b878"
@@ -22,6 +21,9 @@ Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.2.0"]
+RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
 
 ["0.2-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
