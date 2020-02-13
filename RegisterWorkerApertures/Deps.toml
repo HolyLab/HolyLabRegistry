@@ -20,8 +20,10 @@ StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0-0.2"]
+RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
 
 ["0.2-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"

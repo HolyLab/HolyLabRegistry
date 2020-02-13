@@ -1,4 +1,4 @@
 authors = ["Tim Holy <tim.holy@gmail.com>"]
 name = "RegisterWorkerAperturesMismatch"
-repo = "git@github.com:HolyLab/RegisterWorkerAperturesMismatch.jl.git"
+repo = "https://github.com/HolyLab/RegisterWorkerAperturesMismatch.jl.git"
 uuid = "30e56b64-2659-11e9-2fbf-0524297743d8"

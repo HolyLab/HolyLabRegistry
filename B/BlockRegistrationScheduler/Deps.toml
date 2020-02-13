@@ -1,0 +1,7 @@
+[1]
+BlockRegistration = "96be3cfc-dfc9-41f0-9424-fd41ed36fd5e"
+Reexport = "189a3867-3050-52da-a836-e630ba90ab69"
+RegisterDriver = "935ac36e-2656-11e9-1e3b-cbaa636797af"
+RegisterWorkerApertures = "a0a6461a-57d1-11e9-363b-71a271cc5699"
+RegisterWorkerAperturesMismatch = "30e56b64-2659-11e9-2fbf-0524297743d8"
+RegisterWorkerShell = "978d31ce-2656-11e9-22d6-b5c46a1a3d3e"

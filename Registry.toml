@@ -32,6 +32,7 @@ register any package within lab scope.
 55325cc8-c0ec-11e8-2109-1f9bd277abf4 = { name = "ShotNoise", path = "ShotNoise" }
 56f27cf3-5d2e-53a9-a1df-46b7fbe4d4d0 = { name = "DFoFArrays", path = "D/DFoFArrays" }
 597c7b4e-c0ec-11e8-1347-855d2b7c9c20 = { name = "FakeCells", path = "FakeCells" }
+5d60e731-3d07-5a0e-bd67-2fa232a8a749 = { name = "BlockRegistrationScheduler", path = "B/BlockRegistrationScheduler" }
 629045b3-4d2b-4a55-9b3a-009cda0386a9 = { name = "StimulusNavigator", path = "S/StimulusNavigator" }
 67712758-55e7-5c3c-8e85-dda1d7758434 = { name = "RegisterCore", path = "RegisterCore" }
 6a7ac665-a291-440c-97b5-1e881457f238 = { name = "StitchDPI", path = "S/StitchDPI" }

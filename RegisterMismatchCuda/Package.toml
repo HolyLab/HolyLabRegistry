@@ -1,3 +1,3 @@
 name = "RegisterMismatchCuda"
 uuid = "ee0d8d85-fa18-576c-9601-66ebb12862d9"
-repo = "git@github.com:HolyLab/RegisterMismatchCuda.jl.git"
+repo = "https://github.com/HolyLab/RegisterMismatchCuda.jl.git"
