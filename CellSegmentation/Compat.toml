@@ -1,2 +1,15 @@
-["0.1"]
+[0]
+BoxTrees = "0.0.0 - 0.0.0"
+ExtraMatrix = "0.0.0 - 0.0.0"
+FactoredMatrices = "0.0.0 - 0.0.0"
+FakeCells = "0.0.0 - 0.1"
+ISVD = "0.0.0 - 0.0.0"
+MergePairwise = "0.0.0 - 0.0.0"
+ShotNoise = "0.0.0 - 0.0.0"
+TiledFactorizations = "0.0.0 - 0.0.0"
+
+["0.0"]
+TileTrees = "0.0.0 - 0.2"
+
+["0.1-0"]
 TileTrees = "0.2.1-0.2"
