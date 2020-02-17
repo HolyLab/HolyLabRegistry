@@ -1,2 +1,9 @@
-["0.1"]
+[0]
+CenterIndexedArrays = "0.0.0 - 0.2"
+QuadDIRECT = "0.0.0 - 0.1"
+RegisterCore = "0.0.0 - 0.2"
+RegisterDeformation = "0.0.0 - 0.3"
+RegisterMismatch = "0.0.0 - 0.3"
+
+["0-0.1"]
 julia = "0.7-1"

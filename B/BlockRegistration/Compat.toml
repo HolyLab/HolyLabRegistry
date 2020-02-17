@@ -1,0 +1,9 @@
+[0]
+CachedInterpolations = "0.0.0 - 0.1"
+CenterIndexedArrays = "0.0.0 - 0.2"
+RegisterCore = "0.0.0 - 0.2"
+RegisterDeformation = "0.0.0 - 0.3"
+RegisterFit = "0.0.0 - 0.1"
+RegisterHindsight = "0.0.0 - 0.2"
+RegisterOptimize = "0.0.0 - 0.3"
+RegisterPenalty = "0.0.0 - 0.2"

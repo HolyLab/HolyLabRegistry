@@ -1,6 +1,9 @@
 ["0-0.1"]
 julia = "0.7-1"
 
+["0-0.2"]
+RegisterUtilities = "0.0.0 - 0.1"
+
 ["0.3-0"]
 CoordinateTransformations = "0.5"
 FileIO = "1"

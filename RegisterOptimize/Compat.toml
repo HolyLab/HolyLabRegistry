@@ -1,5 +1,18 @@
+[0]
+RegisterMismatch = "0.0.0 - 0.3"
+
 ["0-0.1"]
 julia = "0.7-1"
+
+["0-0.2"]
+CachedInterpolations = "0.0.0 - 0.1"
+CenterIndexedArrays = "0.0.0 - 0.2"
+QuadDIRECT = "0.0.0 - 0.1"
+RegisterCore = "0.0.0 - 0.2"
+RegisterDeformation = "0.0.0 - 0.3"
+RegisterFit = "0.0.0 - 0.1"
+RegisterPenalty = "0.0.0 - 0.2"
+RegisterUtilities = "0.0.0 - 0.1"
 
 ["0.3-0"]
 CachedInterpolations = "0.1"

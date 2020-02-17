@@ -2,6 +2,9 @@
 RegisterMismatchCommon = "0.1"
 
 ["0-0.2"]
+CenterIndexedArrays = "0.0.0 - 0.2"
+RFFT = "0.0.0 - 0.1"
+RegisterCore = "0.0.0 - 0.2"
 julia = "0.7-1"
 
 ["0.2"]

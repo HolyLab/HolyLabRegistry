@@ -1,4 +1,9 @@
 ["0-0.1"]
+CachedInterpolations = "0.0.0 - 0.1"
+CenterIndexedArrays = "0.0.0 - 0.2"
+RegisterCore = "0.0.0 - 0.2"
+RegisterDeformation = "0.0.0 - 0.3"
+RegisterUtilities = "0.0.0 - 0.1"
 julia = "0.7-1"
 
 ["0.2-0"]

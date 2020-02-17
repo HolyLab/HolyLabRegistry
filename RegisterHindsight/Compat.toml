@@ -1,4 +1,7 @@
 ["0-0.1"]
+RegisterDeformation = "0.0.0 - 0.3"
+RegisterMismatch = "0.0.0 - 0.3"
+RegisterPenalty = "0.0.0 - 0.2"
 julia = "0.7-1"
 
 ["0.2-0"]
