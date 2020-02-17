@@ -8,9 +8,14 @@ RegisterMismatchCommon = "0.1"
 RegisterMismatchCommon = "0.2"
 
 ["0.3-0"]
-CUDAdrv = "5"
 CUDAnative = "2"
 CuArrays = "1"
 ImageCore = "0.8.1-0.8"
 Primes = "0.4"
 RegisterCore = "0.2"
+
+["0.3.0"]
+CUDAdrv = "5"
+
+["0.3.1-0"]
+CUDAdrv = "5-6"
