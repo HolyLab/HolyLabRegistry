@@ -2,7 +2,6 @@
 julia = "0.7-1"
 
 ["0.2-0"]
-CUDAdrv = "5"
 CUDAnative = "2"
 CoordinateTransformations = "0.5"
 CuArrays = "1"
@@ -20,3 +19,9 @@ RegisterPenalty = "0.2"
 RegisterWorkerShell = "0.2"
 StaticArrays = "0.12"
 julia = "1"
+
+["0.2-0.2.1"]
+CUDAdrv = "5"
+
+["0.2.2-0"]
+CUDAdrv = "5-6"
