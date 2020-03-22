@@ -1,5 +1,13 @@
-[0]
+["0-0.2"]
 BoxTrees = "0.0.0 - 0.0.0"
 
 ["0.1"]
 julia = "0.7-1"
+
+["0.3-0"]
+BoxTrees = "0.0"
+ColorTypes = "0.8-0.10"
+FixedPointNumbers = "0.7.1-0.8"
+Images = "0.18-0.22"
+ProgressMeter = "1"
+julia = "1"
