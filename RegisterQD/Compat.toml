@@ -1,9 +1,33 @@
-[0]
+["0-0.1"]
+julia = "0.7-1"
+
+["0-0.2.0"]
 CenterIndexedArrays = "0.0.0 - 0.2"
 QuadDIRECT = "0.0.0 - 0.1"
 RegisterCore = "0.0.0 - 0.2"
 RegisterDeformation = "0.0.0 - 0.3"
 RegisterMismatch = "0.0.0 - 0.3"
 
-["0-0.1"]
-julia = "0.7-1"
+["0.2.1"]
+CenterIndexedArrays = "0.1"
+Images = "0.18-0.22"
+RegisterCore = "0.1"
+RegisterMismatch = "0.2"
+
+["0.2.1-0"]
+CoordinateTransformations = "0.5"
+Interpolations = "0.12"
+MappedArrays = "0.2"
+OffsetArrays = ["0.11", "1"]
+PaddedViews = "0.4-0.5"
+QuadDIRECT = "0.0-0.1"
+RegisterDeformation = "0.2"
+Rotations = "0.12-0.13"
+StaticArrays = "0.11-0.12"
+julia = "1"
+
+["0.2.2-0"]
+CenterIndexedArrays = "0.2"
+Images = "0.20-0.22"
+RegisterCore = "0.1-0.2"
+RegisterMismatch = "0.3"
