@@ -25,12 +25,27 @@ Still need to add most of our lab packages to this registry.
 This instruction is for Linux users and comes from https://help.github.com/articles/connecting-to-github-with-ssh/.
 For windows users, you can get some information at https://gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23
 
-1. Generating a new SSH key at a local machine.
+0. Specific preperation for Windows
+
+    - Create a folder at the root of your user home folder (Example: C:/Users/uname/) called .ssh.
+    - Create the following files if they do not already exist (paths begin from the root of your user home folder):
+    
+        .ssh/config<br>
+        .bash_profile<br>
+        .bashrc<br>
+
+1. Create a New SSH Key<br>
+    1.1 Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
     ```
     $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
     ```
-
+    Note: It might have error when you install package from Holylab repository after you finished all steps, the error is "ERROR: failed to fetch from git@github.com". If you face this problem, it might be helpful to replace the command above by
+    
+    ```
+    $ ssh-keygen -m PEM rsa -b 4096 -C "your_email@example.com"
+    ``` 
+    
     - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
     ```
     Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
@@ -42,7 +57,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
     Enter same passphrase again: [Type passphrase again]
     ```
 
-2. Adding your SSH key to the ssh-agent
+    1.2 Adding your SSH key to the ssh-agent
     - Start the ssh-agent in the background.
     ```
     $ eval "$(ssh-agent -s)"
@@ -53,7 +68,53 @@ For windows users, you can get some information at https://gist.github.com/bsara
     ```
     $ ssh-add ~/.ssh/id_rsa
     ```
+2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux) 
+    2.1 Configure SSH for Git Hosting Server
+    - Add the following text to .ssh/config (.ssh should be found in the root of your user home folder):
+    ```
+    Host github.com<br>
+    Hostname github.com<br>
+    IdentityFile ~/.ssh/id_rsa
+    ```
+    
+    2.2 Enable SSH Agent Startup Whenever Git Bash is Started
+    - First, ensure that following lines are added to .bash_profile, which should be found in your root user home folder:
+    ```
+    test -f ~/.profile && . ~/.profile
+    test -f ~/.bashrc && . ~/.bashrc
+    ```    
+    - Now, add the following text to .bashrc, which should be found in your root user home folder:
+    ```
+    # Start SSH Agent
+    #----------------------------
 
+    SSH_ENV="$HOME/.ssh/environment"
+
+    function run_ssh_env {
+      . "${SSH_ENV}" > /dev/null
+    }
+
+    function start_ssh_agent {
+      echo "Initializing new SSH agent..."
+      ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+      echo "succeeded"
+      chmod 600 "${SSH_ENV}"
+
+      run_ssh_env;
+
+      ssh-add ~/.ssh/id_rsa;
+    }
+
+    if [ -f "${SSH_ENV}" ]; then
+      run_ssh_env;
+      ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+        start_ssh_agent;
+      }
+    else
+      start_ssh_agent;
+    fi
+    ```
+    
 3. Adding a new SSH key to your GitHub account
     - Copies the contents of the id_rsa.pub file in the local machine to your clipboard
     - Go to GitHub site
