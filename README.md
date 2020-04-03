@@ -16,10 +16,6 @@ For earlier Julia versions, manually `git clone` this repository under `DEPOT_PA
 
 Then, we can use lab private packages (or unregistered public ones) as if they are registered ones.
 
-# WIP
-
-Still need to add most of our lab packages to this registry.
-
 # To use git protocol in GitHub
 
 This instruction is for Linux users and comes from https://help.github.com/articles/connecting-to-github-with-ssh/.
@@ -34,7 +30,8 @@ For windows users, you can get some information at https://gist.github.com/bsara
         .bash_profile<br>
         .bashrc<br>
 
-1. Create a New SSH Key<br>
+1. Create a New SSH Key
+
     1.1 Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
     ```
@@ -68,7 +65,8 @@ For windows users, you can get some information at https://gist.github.com/bsara
     ```
     $ ssh-add ~/.ssh/id_rsa
     ```
-2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux) 
+2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux)
+
     2.1 Configure SSH for Git Hosting Server
     - Add the following text to .ssh/config (.ssh should be found in the root of your user home folder):
     ```
