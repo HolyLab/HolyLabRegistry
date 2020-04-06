@@ -1,0 +1,4 @@
+["0.1.1-0"]
+PositiveFactorizations = "0.2"
+StaticArrays = "0.10-0.12"
+julia = "1"
