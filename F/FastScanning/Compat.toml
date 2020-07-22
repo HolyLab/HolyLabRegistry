@@ -1,6 +1,6 @@
 [0]
 Imagine = "0.0.0 - 0.1"
-ImagineAnalyses = "0.0.0 - 0.0.0"
+ImagineAnalyses = "0.0"
 ImagineInterface = "0.0.0 - 0.1"
 ImagineProcedures = "0.0.0 - 0.1"
 RegisterMismatch = "0.0.0 - 0.3"
