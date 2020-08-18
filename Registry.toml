@@ -46,6 +46,7 @@ register any package within lab scope.
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "R/RegisterWorkerShell" }
 99b0285a-20f0-11e9-0283-7f418f478feb = { name = "FastScanning", path = "F/FastScanning" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "B/BoxTrees" }
+9da5b20e-4a71-11e9-15f0-a14dcb3a4cc0 = { name = "MergeUnreciprocated", path = "M/MergeUnreciprocated" }
 a0a6461a-57d1-11e9-363b-71a271cc5699 = { name = "RegisterWorkerApertures", path = "R/RegisterWorkerApertures" }
 a9d8408c-0fb1-11e9-0067-cb067474114e = { name = "ImagineInterface", path = "I/ImagineInterface" }
 abb2e897-52bf-5d28-a379-6ca321e3b878 = { name = "RegisterMismatchCommon", path = "R/RegisterMismatchCommon" }
