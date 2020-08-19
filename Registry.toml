@@ -46,6 +46,7 @@ register any package within lab scope.
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "R/RegisterWorkerShell" }
 99b0285a-20f0-11e9-0283-7f418f478feb = { name = "FastScanning", path = "F/FastScanning" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "B/BoxTrees" }
+9da5b20e-4a71-11e9-15f0-a14dcb3a4cc0 = { name = "MergeUnreciprocated", path = "M/MergeUnreciprocated" }
 a0a6461a-57d1-11e9-363b-71a271cc5699 = { name = "RegisterWorkerApertures", path = "R/RegisterWorkerApertures" }
 a9d8408c-0fb1-11e9-0067-cb067474114e = { name = "ImagineInterface", path = "I/ImagineInterface" }
 abb2e897-52bf-5d28-a379-6ca321e3b878 = { name = "RegisterMismatchCommon", path = "R/RegisterMismatchCommon" }
@@ -62,6 +63,7 @@ d4862ba2-f42c-5aeb-af4f-96a8884a16c4 = { name = "RegisterUtilities", path = "R/R
 d514a27a-15fd-11e9-2877-55d10791f35b = { name = "ImagineAnalyses", path = "I/ImagineAnalyses" }
 d8fd01e4-1764-11e9-0a01-8f76bebf08d8 = { name = "CachedArrays", path = "C/CachedArrays" }
 dae52e8d-d666-5120-a592-9e15c33b8d7a = { name = "QuadDIRECT", path = "Q/QuadDIRECT" }
+e6cd4d91-e4e0-4df6-b8b9-468a61cefdb4 = { name = "MergeUnreciprocatedGUI", path = "M/MergeUnreciprocatedGUI" }
 ee0d8d85-fa18-576c-9601-66ebb12862d9 = { name = "RegisterMismatchCuda", path = "R/RegisterMismatchCuda" }
 f385d984-c960-11e8-171c-977bba6b62a4 = { name = "IntervalFastMath", path = "I/IntervalFastMath" }
 f54becb8-3809-5a58-8f2d-748913078968 = { name = "TileTreesGUI", path = "T/TileTreesGUI" }
