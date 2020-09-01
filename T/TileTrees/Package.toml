@@ -1,4 +1,3 @@
-authors = ["Tim Holy <tim.holy@gmail.com>"]
 name = "TileTrees"
-repo = "git@github.com:HolyLab/TileTrees.jl.git"
 uuid = "cd6f60fb-236b-5882-ad4f-250d5433a9a7"
+repo = "git@github.com:HolyLab/TileTrees.jl.git"
