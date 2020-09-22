@@ -1,0 +1,7 @@
+["0.2-0"]
+AxisArrays = "0.4"
+ColorVectorSpace = "0.8"
+Distributions = "0.23"
+ImageAxes = "0.6"
+ImageCore = "0.8"
+julia = "1"
