@@ -10,7 +10,7 @@ If you're using at least Julia 1.1, then you can add this registry with
 ]registry add git@github.com:HolyLab/HolyLabRegistry.git
 ```
 
-(The `]` enters Pkg mode when you type it at the REPL prompt, see https://docs.julialang.org/en/latest/stdlib/Pkg/.)
+(The `]` enters Pkg mode when you type it at the REPL prompt, see https://docs.julialang.org/en/v1/stdlib/Pkg/.)
 
 For earlier Julia versions, manually `git clone` this repository under `DEPOT_PATH/registries`. (Usually, `DEPOT_PATH = /home/username/.julia`)
 
