@@ -7,6 +7,11 @@ julia = "0.7-1"
 ["0.3-0"]
 ColorTypes = "0.8-0.10"
 FixedPointNumbers = "0.7.1-0.8"
-Images = "0.18-0.22"
 ProgressMeter = "1"
 julia = "1"
+
+["0.3-0.3.2"]
+Images = "0.18-0.22"
+
+["0.3.3-0"]
+Images = "0.18-0.23"
