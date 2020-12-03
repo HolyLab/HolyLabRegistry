@@ -1,0 +1,7 @@
+[0]
+DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+GenericLinearAlgebra = "14197337-ba66-59df-a3e3-ca00e7dcff7a"
+IntervalSets = "8197267c-284f-5f27-9208-e0e47529a953"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
