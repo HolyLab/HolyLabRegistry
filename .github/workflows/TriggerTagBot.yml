@@ -1,0 +1,24 @@
+
+name: TriggerTagBot
+on:
+  push:
+    branches:
+      - master
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 2
+      - name: Get updated package name
+        id: pkg
+        run: |
+          PACKAGENAME=$(git diff HEAD^ --stat | grep /Versions.toml | cut -d/ -f2 | uniq)
+          echo "::set-output name=packagename::$PACKAGENAME"
+      - name: Run `repository_dispatch` on updated repo, to trigger tagbot
+        run: |
+          curl -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
+          -H 'Accept: application/vnd.github.everest-preview+json' \
+          -u ${{ secrets.PERSONAL_ACCESS_TOKEN }} \
+          --data '{"event_type": "TriggerTagBot_${{ steps.pkg.outputs.packagename }}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
