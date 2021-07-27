@@ -14,13 +14,15 @@ RegisterMismatchCommon = "0.2"
 FFTW = ["0.3", "1"]
 PaddedViews = "0.5"
 RFFT = "0.1"
-Reexport = "0.2"
 RegisterCore = "0.2.1-0.2"
 RegisterMismatchCommon = "0.2.2-0.2"
 julia = "1.1.0-1"
 
 ["0.3-0.3.1"]
 ImageCore = "0.8.1-0.8"
+
+["0.3-0.3.2"]
+Reexport = "0.2"
 
 ["0.3.0"]
 MappedArrays = "0.2"
@@ -30,3 +32,6 @@ MappedArrays = "0.2-0.4"
 
 ["0.3.2-0"]
 ImageCore = "0.8.1-0.9"
+
+["0.3.3-0"]
+Reexport = ["0.2", "1"]
