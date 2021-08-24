@@ -1,4 +1,3 @@
-authors = ["Tim Holy <tim.holy@gmail.com>"]
 name = "Autosampler"
-repo = "git@github.com:HolyLab/Autosampler.jl.git"
 uuid = "0c2e7f7b-659f-4d17-98b1-b653e143444e"
+repo = "git@github.com:HolyLab/Autosampler.jl.git"

@@ -1,3 +1,11 @@
 [0]
-ImagineInterface = "0.0.0 - 0.1"
 julia = "1"
+
+["0-0.1.1"]
+ImagineInterface = "0.0.0 - 0.1"
+
+["0.1.2-0"]
+CSV = "0.8"
+DataFrames = "1"
+ImagineFormat = "1"
+ImagineInterface = "0.1"
