@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+      - dwk/dev
 jobs:
   test:
     runs-on: ubuntu-latest
@@ -18,7 +19,7 @@ jobs:
           echo "::set-output name=packagename::$PACKAGENAME"
       - name: Run `repository_dispatch` on updated repo, to trigger tagbot
         run: |
-          curl -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
+          curl -X POST https://api.github.com/repos/HolyLab/Autosampler.jl/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.TAGBOT_PAT }} \
           --data '{"event_type": "TriggerTagBot_${{ steps.pkg.outputs.packagename }}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
