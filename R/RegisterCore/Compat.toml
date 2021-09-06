@@ -3,11 +3,13 @@ CenterIndexedArrays = "0.0.0 - 0.2"
 julia = "0.7-1"
 
 ["0.2-0"]
-ImageFiltering = "0.5-0.6"
 julia = "1.1.0-1"
 
 ["0.2-0.2.2"]
 ImageCore = "0.8.1-0.8"
+
+["0.2-0.2.3"]
+ImageFiltering = "0.5-0.6"
 
 ["0.2.0"]
 CenterIndexedArrays = "0.1-0.2"
@@ -20,3 +22,6 @@ Requires = "1"
 
 ["0.2.3-0"]
 ImageCore = "0.8.1-0.9"
+
+["0.2.4-0"]
+ImageFiltering = "0.5-0.7"
