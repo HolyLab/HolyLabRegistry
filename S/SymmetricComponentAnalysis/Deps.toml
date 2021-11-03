@@ -1,0 +1,6 @@
+[0]
+ISVD = "0de75c66-c0d4-11e8-3de9-d1632eed9267"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Optim = "429524aa-4258-5aef-a3af-852621145aeb"
+PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
+Printf = "de0858da-6303-5e67-8744-51eddeeeb8d7"
