@@ -1,2 +1,9 @@
-[0]
+["0-0.1"]
 julia = "0.7-1"
+
+["0.2-0"]
+DataStructures = "0.18"
+Distances = "0.10"
+Distributions = "0.25"
+ProgressMeter = "1"
+julia = "1"
