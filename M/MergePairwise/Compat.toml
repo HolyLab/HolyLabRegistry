@@ -8,13 +8,20 @@ TiledFactorizations = "0.0"
 julia = "0.7-1"
 
 ["0.1-0"]
-Arpack = "0.3-0.4"
 DataStructures = "0.17-0.18"
 FactoredMatrices = "0.1"
-Images = "0.19-0.22"
-Interpolations = "0.12"
 Munkres = "0.2"
 ProgressMeter = "1"
 TileTrees = "0.1-0.3"
 TiledFactorizations = "0.0-0.1"
 julia = "1.1.0-1"
+
+["0.1.0"]
+Arpack = "0.3-0.4"
+Images = "0.19-0.22"
+Interpolations = "0.12"
+
+["0.1.1-0"]
+Arpack = "0.3-0.5"
+Images = "0.19-0.25"
+Interpolations = "0.12-0.13"
