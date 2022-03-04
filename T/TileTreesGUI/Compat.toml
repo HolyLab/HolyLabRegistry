@@ -14,9 +14,15 @@ Graphics = ["0.4", "1"]
 Gtk = ["0.18", "1"]
 GtkReactive = ["0.7", "1"]
 ImageView = "0.9-0.10"
+TileTrees = "0.3"
+
+["0.1.2-0.2.0"]
 Images = "0.18-0.22"
 MappedArrays = "0.2"
-TileTrees = "0.3"
 
 ["0.2-0"]
 julia = "1.2.0-1"
+
+["0.2.1-0"]
+Images = "0.18-0.25"
+MappedArrays = "0.2-0.4"
