@@ -44,6 +44,7 @@ register any package within lab scope.
 935ac36e-2656-11e9-1e3b-cbaa636797af = { name = "RegisterDriver", path = "R/RegisterDriver" }
 96ae54c0-0dff-11e9-11b2-27e67f6cc5ea = { name = "UnitAliases", path = "U/UnitAliases" }
 96be3cfc-dfc9-41f0-9424-fd41ed36fd5e = { name = "BlockRegistration", path = "B/BlockRegistration" }
+97563a55-ea3b-5e9e-8052-20bacb65643b = { name = "LightsheetDestripe", path = "L/LightsheetDestripe" }
 978d31ce-2656-11e9-22d6-b5c46a1a3d3e = { name = "RegisterWorkerShell", path = "R/RegisterWorkerShell" }
 99b0285a-20f0-11e9-0283-7f418f478feb = { name = "FastScanning", path = "F/FastScanning" }
 9cc36475-e10c-57f8-b33d-19dcb253ebc3 = { name = "BoxTrees", path = "B/BoxTrees" }
