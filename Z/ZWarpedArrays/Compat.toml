@@ -1,3 +1,12 @@
-[0]
+["0-0.1.0"]
 CachedArrays = "0.0.0 - 0.1"
 julia = "1"
+
+["0.1.1-0"]
+AxisArrays = "0.4"
+CachedArrays = "0.1.2-0.1"
+CoordinateTransformations = "0.5-0.6"
+Images = "0.23-0.25"
+Interpolations = "0.12-0.13"
+Unitful = "1"
+julia = "1.1.0-1"
