@@ -24,6 +24,7 @@ register any package within lab scope.
 30e56b64-2659-11e9-2fbf-0524297743d8 = { name = "RegisterWorkerAperturesMismatch", path = "R/RegisterWorkerAperturesMismatch" }
 35e57d1e-36d7-11e9-1ca9-f74434b2bc55 = { name = "InterleavedImages", path = "I/InterleavedImages" }
 36121b08-3789-5198-aff2-59a3443d9b59 = { name = "RegisterFit", path = "R/RegisterFit" }
+387662ca-47fb-11e9-36d5-97ab6f05d7f8 = { name = "ExtractPSF", path = "E/ExtractPSF" }
 3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "R/RFFT" }
 3c0dd727-6833-5f5d-a1e8-c0d421935c74 = { name = "RegisterMismatch", path = "R/RegisterMismatch" }
 43b7f2cc-1a9d-11e9-093e-178b9f97357d = { name = "ImagineProcedures", path = "I/ImagineProcedures" }
