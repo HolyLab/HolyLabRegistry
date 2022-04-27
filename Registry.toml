@@ -15,6 +15,7 @@ register any package within lab scope.
 189fa2b0-c0d4-11e8-1b41-c5eb7281c27c = { name = "ExtraMatrix", path = "E/ExtraMatrix" }
 19baa3cf-15a9-54b0-b671-5d0d7003ae5b = { name = "VariationalOnlineStats", path = "V/VariationalOnlineStats" }
 1bab902d-36fe-489f-8fc7-6d2618eb76be = { name = "RoiTool", path = "R/RoiTool" }
+22d84090-3402-517d-8c5f-fd8a09276b55 = { name = "ImagineCalibrate", path = "I/ImagineCalibrate" }
 23bcbbb2-c0d4-11e8-38f2-37d4ddb111c4 = { name = "TiledFactorizations", path = "T/TiledFactorizations" }
 26d16474-33ca-11e9-0261-c59b979c6e18 = { name = "ZWarpedArrays", path = "Z/ZWarpedArrays" }
 2857f282-5c94-11e9-0b5d-cb5f26255b42 = { name = "ImageInterpLast", path = "I/ImageInterpLast" }
