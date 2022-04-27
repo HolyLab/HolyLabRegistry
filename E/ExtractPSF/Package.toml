@@ -1,0 +1,3 @@
+name = "ExtractPSF"
+uuid = "387662ca-47fb-11e9-36d5-97ab6f05d7f8"
+repo = "git@github.com:HolyLab/ExtractPSF.jl.git"
