@@ -34,6 +34,8 @@ Images = "0.20-0.22"
 ["0.2.2-0"]
 CenterIndexedArrays = "0.2"
 RegisterCore = "0.1-0.2"
+
+["0.2.2-0.2.6"]
 RegisterMismatch = "0.3"
 
 ["0.2.3"]
@@ -60,3 +62,6 @@ MappedArrays = "0.2-0.4"
 
 ["0.2.6-0"]
 Images = "0.20-0.25"
+
+["0.2.7-0"]
+RegisterMismatch = "0.3-0.4"
