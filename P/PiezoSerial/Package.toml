@@ -1,0 +1,3 @@
+name = "PiezoSerial"
+uuid = "15f47f3c-50af-56fd-b121-9c5737f4ef3a"
+repo = "git@github.com:HolyLab/PiezoSerial.jl.git"

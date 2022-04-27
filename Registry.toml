@@ -12,6 +12,7 @@ register any package within lab scope.
 0de75c66-c0d4-11e8-3de9-d1632eed9267 = { name = "ISVD", path = "I/ISVD" }
 0f17980a-d2b6-11e8-2799-edcc513b22eb = { name = "HistogramPyramids", path = "H/HistogramPyramids" }
 13d07ad6-c0d4-11e8-35b1-91a532e61cc8 = { name = "FactoredMatrices", path = "F/FactoredMatrices" }
+15f47f3c-50af-56fd-b121-9c5737f4ef3a = { name = "PiezoSerial", path = "P/PiezoSerial" }
 189fa2b0-c0d4-11e8-1b41-c5eb7281c27c = { name = "ExtraMatrix", path = "E/ExtraMatrix" }
 19baa3cf-15a9-54b0-b671-5d0d7003ae5b = { name = "VariationalOnlineStats", path = "V/VariationalOnlineStats" }
 1bab902d-36fe-489f-8fc7-6d2618eb76be = { name = "RoiTool", path = "R/RoiTool" }
