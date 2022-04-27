@@ -1,10 +1,9 @@
-["0.1"]
+[0]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
 Distributed = "8ba89e20-285c-5b6f-9357-94700520ee1b"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
-Imagine = "28fce3f0-1dbc-11e9-10e3-e71e6ceb4e7c"
 ImagineAnalyses = "d514a27a-15fd-11e9-2877-55d10791f35b"
 ImagineInterface = "a9d8408c-0fb1-11e9-0067-cb067474114e"
 ImagineProcedures = "43b7f2cc-1a9d-11e9-093e-178b9f97357d"
@@ -17,3 +16,6 @@ RegisterQD = "ac24ea0c-1830-11e9-18d4-81f172323054"
 Requires = "ae029012-a4dd-5104-9daa-d747884805df"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.1.0"]
+Imagine = "28fce3f0-1dbc-11e9-10e3-e71e6ceb4e7c"
