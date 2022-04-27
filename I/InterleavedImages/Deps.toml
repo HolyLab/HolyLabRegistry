@@ -1,6 +1,11 @@
-["0.0-0.1"]
+[0]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
 CachedArrays = "d8fd01e4-1764-11e9-0a01-8f76bebf08d8"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 LibGit2 = "76f85450-5226-5b5a-8eaa-529ad045b433"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+
+["0-0.1.0"]
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+
+["0.1.1-0"]
+ImageMetadata = "bc367c6b-8a6b-528e-b4bd-a4b897500b49"
