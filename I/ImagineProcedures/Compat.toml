@@ -1,4 +1,10 @@
-[0]
+["0-0.1.0"]
 CachedCalls = "0.0"
 ImagineInterface = "0.0.0 - 0.1"
 julia = "1"
+
+["0.1.1-0"]
+CachedCalls = "0.0.1"
+ImagineInterface = "0.1"
+Reexport = ["0.2", "1"]
+Unitful = "1"

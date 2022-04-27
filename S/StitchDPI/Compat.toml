@@ -1,6 +1,22 @@
-[0]
+["0-0.1"]
 CachedArrays = "0.0.0 - 0.1"
 InterleavedImages = "0.0.0 - 0.1"
 RegisterQD = "0.0.0 - 0.2"
 ZWarpedArrays = "0.0.0 - 0.1"
 julia = "1.0.0-1"
+
+["0.2-0"]
+AxisArrays = "0.4"
+CachedArrays = "0.1"
+CoordinateTransformations = "0.6"
+FileIO = "1"
+ImageBase = "0.1"
+InterleavedImages = "0.1"
+Interpolations = "0.13"
+MappedArrays = "0.4"
+NRRD = "0.6"
+PaddedViews = "0.5"
+RegisterQD = "0.2"
+Unitful = "1"
+ZWarpedArrays = "0.1"
+julia = "1.6.0-1"

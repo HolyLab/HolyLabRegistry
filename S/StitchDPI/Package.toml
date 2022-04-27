@@ -1,4 +1,3 @@
-authors = ["Cody-G <codyjgreer@gmail.com>"]
 name = "StitchDPI"
-repo = "https://github.com/HolyLab/StitchDPI.jl.git"
 uuid = "6a7ac665-a291-440c-97b5-1e881457f238"
+repo = "https://github.com/HolyLab/StitchDPI.jl.git"
