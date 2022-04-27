@@ -64,6 +64,7 @@ c09c51bc-9ae7-4408-96c2-ae54f7cea0d3 = { name = "SymmetricComponentAnalysis", pa
 c19381b7-cf49-59d7-881c-50dfbd227eaf = { name = "RegisterDeformation", path = "R/RegisterDeformation" }
 c3b4e2a2-e463-46f1-b1f5-667b5e187791 = { name = "MappedIndexArrays", path = "M/MappedIndexArrays" }
 cd6f60fb-236b-5882-ad4f-250d5433a9a7 = { name = "TileTrees", path = "T/TileTrees" }
+d076106b-79cb-5c5e-aa42-567a067496c5 = { name = "ImaginePlots", path = "I/ImaginePlots" }
 d32f3a2f-26fa-5ce0-a2ac-000c59351c13 = { name = "NeighborhoodClustering", path = "N/NeighborhoodClustering" }
 d4862ba2-f42c-5aeb-af4f-96a8884a16c4 = { name = "RegisterUtilities", path = "R/RegisterUtilities" }
 d514a27a-15fd-11e9-2877-55d10791f35b = { name = "ImagineAnalyses", path = "I/ImagineAnalyses" }
