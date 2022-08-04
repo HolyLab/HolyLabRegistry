@@ -4,10 +4,17 @@ ExtraMatrix = "0.0"
 FactoredMatrices = "0.1"
 ISVD = "0.0"
 ImageAxes = "0.6"
-ImageCore = "0.8.1-0.8"
 ProgressMeter = "1"
-RoundingIntegers = "0.2"
 ShotNoise = "0.0"
 TileTrees = "0.3"
 VariationalOnlineStats = "0.0"
+
+["0.1.0"]
+ImageCore = "0.8.1-0.8"
+RoundingIntegers = "0.2"
 julia = "1"
+
+["0.1.1-0"]
+ImageCore = "0.8.1-0.9"
+RoundingIntegers = ["0.2", "1"]
+julia = "1.1.0-1"
