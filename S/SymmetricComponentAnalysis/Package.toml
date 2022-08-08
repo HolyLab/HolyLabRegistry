@@ -1,3 +1,3 @@
 name = "SymmetricComponentAnalysis"
 uuid = "c09c51bc-9ae7-4408-96c2-ae54f7cea0d3"
-repo = "https://github.com/HolyLab/SymmetricComponentAnalysis.git"
+repo = "git@github.com:HolyLab/SymmetricComponentAnalysis.git"
