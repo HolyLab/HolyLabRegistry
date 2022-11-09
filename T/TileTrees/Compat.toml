@@ -18,6 +18,12 @@ ColorTypes = "0.8-0.10"
 ["0.3.3-0.3.4"]
 Images = "0.18-0.23"
 
+["0.3.5"]
+Images = "0.18-0.25"
+
 ["0.3.5-0"]
 ColorTypes = "0.8-0.11"
-Images = "0.18-0.25"
+
+["0.3.6-0"]
+ImageCore = "0.9"
+ImageDistances = "0.2"
