@@ -28,7 +28,12 @@ ImageAxes = "0.6"
 ImageCore = "0.9"
 ImageMetadata = "0.9"
 JLD2 = "0.4"
-MergePairwise = "0.1"
 TileTrees = "0.3"
 TiledFactorizations = "0.1"
 julia = "1.6.0-1"
+
+["0.2-0.2.1"]
+MergePairwise = "0.1"
+
+["0.2.2-0"]
+MergePairwise = "0.2"
