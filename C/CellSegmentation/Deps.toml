@@ -1,10 +1,4 @@
-["0.0"]
-Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
-InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
-Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-
-["0.0-0.1"]
+[0]
 BoxTrees = "9cc36475-e10c-57f8-b33d-19dcb253ebc3"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
@@ -14,7 +8,6 @@ FakeCells = "597c7b4e-c0ec-11e8-1347-855d2b7c9c20"
 FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
 ISVD = "0de75c66-c0d4-11e8-3de9-d1632eed9267"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
 MergePairwise = "2b713a72-c0d4-11e8-0e3e-e7c72182117a"
 ShotNoise = "55325cc8-c0ec-11e8-2109-1f9bd277abf4"
@@ -22,3 +15,18 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 TileTrees = "cd6f60fb-236b-5882-ad4f-250d5433a9a7"
 TiledFactorizations = "23bcbbb2-c0d4-11e8-38f2-37d4ddb111c4"
 Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
+
+["0-0.1"]
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+
+["0.0"]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
+Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+["0.2-0"]
+AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
+ImageAxes = "2803e5a7-5153-5ecf-9a86-9b4c37f5f5ac"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageMetadata = "bc367c6b-8a6b-528e-b4bd-a4b897500b49"
