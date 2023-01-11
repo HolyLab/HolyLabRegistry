@@ -21,7 +21,7 @@ Then, we can use lab private packages (or unregistered public ones) as if they a
 This instruction is for Linux users and comes from https://help.github.com/articles/connecting-to-github-with-ssh/.
 For windows users, you can get some information at https://gist.github.com/bsara/5c4d90db3016814a3d2fe38d314f9c23
 
-0. Specific preperation for Windows
+0. Specific preparation for Windows
 
     - Create a folder at the root of your user home folder (Example: C:/Users/uname/) called .ssh.
     - Create the following files if they do not already exist (paths begin from the root of your user home folder):
@@ -46,7 +46,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
     
     - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
     ```
-    Enter a file in which to save the key (/home/you/.ssh/id_rsa): [Press enter]
+    Enter a file in which to save the key (/home/you/.ssh/id_ecdsa): [Press enter]
     ```
 
     - At the prompt, type a secure passphrase if you want.
@@ -73,7 +73,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
     ```
     Host github.com<br>
     Hostname github.com<br>
-    IdentityFile ~/.ssh/id_rsa
+    IdentityFile ~/.ssh/id_ecdsa
     ```
     
     2.2 Enable SSH Agent Startup Whenever Git Bash is Started
@@ -101,7 +101,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
 
       run_ssh_env;
 
-      ssh-add ~/.ssh/id_rsa;
+      ssh-add ~/.ssh/id_ecdsa;
     }
 
     if [ -f "${SSH_ENV}" ]; then
@@ -115,7 +115,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
     ```
     
 3. Adding a new SSH key to your GitHub account
-    - Copies the contents of the id_rsa.pub file in the local machine to your clipboard
+    - Copies the contents of the id_ecdsa.pub file in the local machine to your clipboard
     - Go to GitHub site
     - In the upper-right corner of any page, click your profile photo, then click Settings.
     - In the user settings sidebar, click SSH and GPG keys.
@@ -270,7 +270,7 @@ This is required only if your package uses other private packages.
   A similar script should be used with Appveyor (for testing on Windows).  However because multiline commands and variables are nightmarish in Windows it's recommended that you move the Julia command above into a separate script that gets called from `appveyor.yml`.  You can call the same script from `.travis.yml` as well to avoid code duplication.  See https://github.com/HolyLab/ImagineInterface for an example.
 
 - Assign your private ssh key which is paired with a public key in your Github account to the package in the Travis site.
-  * Copy the contents of the private key ('id_rsa' file generated in the 'To use git protocol in GitHub' section - not 'id_rsa.pub') in the local machine to your clipboard.
+  * Copy the contents of the private key ('id_ecdsa' file generated in the 'To use git protocol in GitHub' section - not 'id_ecdsa.pub') in the local machine to your clipboard.
   * Go to the setup page of the package in the Travis site you want to make to access this registry. (You can get there by choosing the package in your Travis repositories, clicking ‘More options’ button on the upper right corner and selecting ‘setting’ menu.)
   * Assign the private key in the clipboard to the ‘SSH Key’ field.
 
