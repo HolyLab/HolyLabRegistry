@@ -5,9 +5,7 @@ Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
 Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"
-GtkReactive = "27996c0f-39cd-5cc1-a27a-05f136f946b6"
 ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 TileTrees = "cd6f60fb-236b-5882-ad4f-250d5433a9a7"
 
@@ -21,3 +19,12 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
 Colors = "5ae59095-9a9b-59fe-a467-6f913c188581"
 FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
+
+["0-0.2"]
+GtkReactive = "27996c0f-39cd-5cc1-a27a-05f136f946b6"
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+
+["0.3-0"]
+GtkObservables = "8710efd8-4ad6-11eb-33ea-2d5ceb25a41c"
+ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
