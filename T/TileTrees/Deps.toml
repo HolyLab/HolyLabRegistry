@@ -17,3 +17,6 @@ Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 ["0.3.6-0"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageDistances = "51556ac3-7006-55f5-8cb3-34580c88182d"
+
+["0.3.9-0"]
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
