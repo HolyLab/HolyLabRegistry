@@ -1,0 +1,9 @@
+[0]
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+IntervalFastMath = "f385d984-c960-11e8-171c-977bba6b62a4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+PositiveFactorizations = "85a6dd25-e78a-55b7-8502-1745935b8125"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
+
+["0.5-0"]
+Roots = "f2b01f46-fcfa-551c-844a-d8ac1e96c665"

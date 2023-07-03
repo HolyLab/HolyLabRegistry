@@ -8,6 +8,7 @@ register any package within lab scope.
 """
 
 [packages]
+03446670-6174-4c65-a0cf-8126b5696439 = { name = "SupraCubicNumbers", path = "S/SupraCubicNumbers" }
 0c2e7f7b-659f-4d17-98b1-b653e143444e = { name = "Autosampler", path = "A/Autosampler" }
 0de75c66-c0d4-11e8-3de9-d1632eed9267 = { name = "ISVD", path = "I/ISVD" }
 0f17980a-d2b6-11e8-2799-edcc513b22eb = { name = "HistogramPyramids", path = "H/HistogramPyramids" }

@@ -1,0 +1,9 @@
+[0]
+ForwardDiff = "0.10"
+IntervalFastMath = "0.2.2-0.2"
+PositiveFactorizations = "0.2"
+StaticArrays = "1.1.0-1"
+julia = "1.9.0-1"
+
+["0.5-0"]
+Roots = "2"
