@@ -27,5 +27,10 @@ Unitful = "1"
 
 ["0.1.5-0"]
 DSP = "0.6-0.7"
-IntervalSets = "0.4-0.6"
 MappedArrays = "0.2-0.4"
+
+["0.1.5-0.1.6"]
+IntervalSets = "0.4-0.6"
+
+["0.1.7-0"]
+IntervalSets = "0.4-0.7"
