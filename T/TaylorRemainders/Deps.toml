@@ -1,0 +1,9 @@
+[1]
+AbstractTrees = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
+DiffResults = "163ba53b-c6d8-5494-b064-1a9d43ac40c5"
+ForwardDiff = "f6369f11-7733-5829-9624-2563aa707210"
+ForwardDiffOverMeasurements = "9eb8ae02-809e-4b16-afbc-1cadb820c769"
+IntervalFastMath = "f385d984-c960-11e8-171c-977bba6b62a4"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Measurements = "eff96d63-e80a-5855-80a2-b1b0885c5ab7"
+StaticArrays = "90137ffa-7385-5640-81b9-e52037218182"
