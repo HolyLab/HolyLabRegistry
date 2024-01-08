@@ -1,7 +1,6 @@
 [0]
 CenterIndexedArrays = "46a7138f-0d70-54e1-8ada-fb8296f91f24"
 CoordinateTransformations = "150eb455-5306-5404-9cee-2592286d6298"
-Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 QuadDIRECT = "dae52e8d-d666-5120-a592-9e15c33b8d7a"
@@ -19,6 +18,9 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0-0.2"]
 RegisterMismatch = "3c0dd727-6833-5f5d-a1e8-c0d421935c74"
 
+["0-0.3.1"]
+Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
+
 ["0.2-0"]
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
 
@@ -28,3 +30,8 @@ PaddedViews = "5432bcbf-9aad-5242-b902-cca2824c8663"
 
 ["0.3-0"]
 RegisterMismatchCommon = "abb2e897-52bf-5d28-a379-6ca321e3b878"
+
+["0.3.2-0"]
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageFiltering = "6a3955dd-da59-5b1f-98d4-e7296123deb5"
+ImageTransformations = "02fcd773-0e25-5acc-982a-7f6622650795"
