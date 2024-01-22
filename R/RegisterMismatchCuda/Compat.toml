@@ -19,17 +19,25 @@ CuArrays = "1"
 RegisterMismatchCommon = "0.2"
 
 ["0.3-0"]
-Primes = "0.4"
 RegisterCore = "0.2"
 
 ["0.3-0.3.1"]
 ImageCore = "0.8.1-0.8"
 RegisterMismatchCommon = "0.2.2"
 
+["0.3-0.3.2"]
+Primes = "0.4"
+
 ["0.3.1"]
 CUDAdrv = "5-6"
 
+["0.3.2"]
+ImageCore = "0.8.1-0.9"
+
 ["0.3.2-0"]
 CUDA = "3"
-ImageCore = "0.8.1-0.9"
 RegisterMismatchCommon = "0.2.2-0.2"
+
+["0.3.3-0"]
+ImageCore = "0.8.1-0.10"
+Primes = "0.4-0.5"
