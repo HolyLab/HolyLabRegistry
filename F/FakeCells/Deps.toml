@@ -15,5 +15,7 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 
 ["0.2-0"]
 AxisArrays = "39de3d68-74b9-583c-8d2d-e117c070f3a9"
-ColorVectorSpace = "c3611d14-8923-5661-9e6a-0046d554d3a4"
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+
+["0.2-0.2.2"]
+ColorVectorSpace = "c3611d14-8923-5661-9e6a-0046d554d3a4"

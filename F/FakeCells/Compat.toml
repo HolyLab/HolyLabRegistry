@@ -8,7 +8,12 @@ ColorVectorSpace = "0.8"
 Distributions = "0.23"
 ImageCore = "0.8"
 
-["0.2.2-0"]
+["0.2.2"]
 ColorVectorSpace = "0.8-0.9"
-Distributions = "0.23-0.25"
 ImageCore = "0.8-0.9"
+
+["0.2.2-0"]
+Distributions = "0.23-0.25"
+
+["0.2.3-0"]
+ImageCore = "0.10"
