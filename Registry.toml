@@ -76,4 +76,5 @@ e6cd4d91-e4e0-4df6-b8b9-468a61cefdb4 = { name = "MergeUnreciprocatedGUI", path =
 ee0d8d85-fa18-576c-9601-66ebb12862d9 = { name = "RegisterMismatchCuda", path = "R/RegisterMismatchCuda" }
 f385d984-c960-11e8-171c-977bba6b62a4 = { name = "IntervalFastMath", path = "I/IntervalFastMath" }
 f54becb8-3809-5a58-8f2d-748913078968 = { name = "TileTreesGUI", path = "T/TileTreesGUI" }
+fda17f23-89d5-4117-bd1e-27859bb918b7 = { name = "LCSVD", path = "L/LCSVD" }
 ff578f10-1de7-11e9-075b-65d52eaf0ec5 = { name = "ImagineWorker", path = "I/ImagineWorker" }
