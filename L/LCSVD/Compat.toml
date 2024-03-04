@@ -1,0 +1,10 @@
+[1]
+DataStructures = "0.18"
+ImageFiltering = "0.7"
+LineSearches = "7"
+LoopVectorization = "0.12"
+MultivariateStats = "0.10"
+NMF = "1"
+Optim = "1"
+StatsBase = "0.33-0.34"
+julia = "1"

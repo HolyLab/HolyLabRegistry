@@ -1,0 +1,3 @@
+name = "LCSVD"
+uuid = "fda17f23-89d5-4117-bd1e-27859bb918b7"
+repo = "https://github.com/HolyLab/LCSVD.jl"
