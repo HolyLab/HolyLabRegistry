@@ -243,36 +243,41 @@ $ git branch -D teh/SomeNewPkg
   3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
   ```
 
-## Accessing HolyLabRegistry in travis and appveyor tests
+## Accessing HolyLabRegistry in CI tests
 
-This is required only if your package uses other private packages.
+This is required only if your package uses other packages which are registered to this HolyLabRegistry registry.
 
-- Include the following lines in the script section of the `.travis.yml` file in the root directory
-  of your package (as an example, let your package name be 'RegisterFit')
+- Include the following lines in the script section of the `CI.yml` file in the `.github/workflows/` directory
+  of your package.
 
-  ```
-  script:
-  - if [[ -a .git/shallow ]]; then git fetch --unshallow; fi
-  - julia -e 'using Pkg, LibGit2;
-              user_regs = joinpath(DEPOT_PATH[1],"registries");
-              mkpath(user_regs);
-              all_registries = Dict("General" => "https://github.com/JuliaRegistries/General.git",
-                                  "HolyLabRegistry" => "https://github.com/HolyLab/HolyLabRegistry.git");
-              Base.shred!(LibGit2.CachedCredentials()) do creds
-              for (reg, url) in all_registries
-                  path = joinpath(user_regs, reg);
-                  LibGit2.with(Pkg.GitTools.clone(url, path; header = "registry $reg from $(repr(url))", credentials = creds)) do repo end
-              end
-              end'
-  - julia -e 'using Pkg; Pkg.build(); Pkg.test("RegisterFit"; coverage=false)'
-  ```
-
-  A similar script should be used with Appveyor (for testing on Windows).  However because multiline commands and variables are nightmarish in Windows it's recommended that you move the Julia command above into a separate script that gets called from `appveyor.yml`.  You can call the same script from `.travis.yml` as well to avoid code duplication.  See https://github.com/HolyLab/ImagineInterface for an example.
-
-- Assign your private ssh key which is paired with a public key in your Github account to the package in the Travis site.
-  * Copy the contents of the private key ('id_ecdsa' file generated in the 'To use git protocol in GitHub' section - not 'id_ecdsa.pub') in the local machine to your clipboard.
-  * Go to the setup page of the package in the Travis site you want to make to access this registry. (You can get there by choosing the package in your Travis repositories, clicking ‘More options’ button on the upper right corner and selecting ‘setting’ menu.)
-  * Assign the private key in the clipboard to the ‘SSH Key’ field.
+```
+name: CI
+  # setting ...
+jobs:
+  test:
+    # setting ...
+    strategy:
+      # setting ...
+    steps:
+      - uses: actions/checkout@v3      
+      - name: Setup SSH Keys and known_hosts # this section is required if the dependent packages include private packages in our Lab.
+        env:
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+        run: |
+            echo $HOME
+            mkdir -p ~/.ssh
+            ssh-keyscan github.com >> ~/.ssh/known_hosts
+            ssh-agent -a $SSH_AUTH_SOCK > /dev/null
+            ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+      - uses: julia-actions/setup-julia@v1
+        with:
+          version: ${{ matrix.version }}
+          arch: ${{ matrix.arch }}
+      - uses: julia-actions/cache@v1
+      - name: registry_add  # this section is required if the dependent packages include packages registered to the HolyLabRegistry.
+        run: julia -e 'using Pkg; pkg"registry add General https://github.com/HolyLab/HolyLabRegistry.git"'
+      - uses: julia-actions/julia-buildpkg@v1
+```
 
 ## Tagging a new release
 
