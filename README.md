@@ -245,9 +245,9 @@ $ git branch -D teh/SomeNewPkg
 
 ## Accessing HolyLabRegistry in CI tests
 
-This is required only if your package uses other packages which are registered to this HolyLabRegistry registry.
+This is required only if your package uses other packages which are registered in this HolyLabRegistry registry.
 
-- Include the following lines in the script section of the `CI.yml` file in the `.github/workflows/` directory
+- Include the following lines in the jobs section of the `CI.yml` file in the `.github/workflows/` directory
   of your package.
 
 ```
@@ -260,7 +260,7 @@ jobs:
       # setting ...
     steps:
       - uses: actions/checkout@v3      
-      - name: Setup SSH Keys and known_hosts # this section is required if the dependent packages include private packages in our Lab.
+      - name: Setup SSH Keys and known_hosts # This section is required if the dependent packages include private packages in our Lab.
         env:
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
@@ -268,15 +268,19 @@ jobs:
             mkdir -p ~/.ssh
             ssh-keyscan github.com >> ~/.ssh/known_hosts
             ssh-agent -a $SSH_AUTH_SOCK > /dev/null
-            ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}"
+            ssh-add - <<< "${{ secrets.SSH_PRIVATE_KEY }}" # This key must be pre-registered in the repository settings as a secrets first.
       - uses: julia-actions/setup-julia@v1
         with:
           version: ${{ matrix.version }}
           arch: ${{ matrix.arch }}
       - uses: julia-actions/cache@v1
-      - name: registry_add  # this section is required if the dependent packages include packages registered to the HolyLabRegistry.
+      - name: registry_add  # this section is required if the dependent packages include packages registered in the HolyLabRegistry.
         run: julia -e 'using Pkg; pkg"registry add General https://github.com/HolyLab/HolyLabRegistry.git"'
       - uses: julia-actions/julia-buildpkg@v1
+        env:  # this environment setting is also required if the dependent packages include private packages in our Lab.
+            SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+            HOME: /home/runner
+      - uses: julia-actions/julia-runtest@v1
 ```
 
 ## Tagging a new release
