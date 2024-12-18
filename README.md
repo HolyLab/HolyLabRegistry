@@ -21,12 +21,12 @@ For windows users, you can get some information at https://gist.github.com/bsara
 
 0. Specific preparation for Windows
 
-    - Create a folder at the root of your user home folder (Example: C:/Users/uname/) called .ssh.
-    - Create the following files if they do not already exist (paths begin from the root of your user home folder):
+  - Create a folder at the root of your user home folder (Example: C:/Users/uname/) called .ssh.
+  - Create the following files if they do not already exist (paths begin from the root of your user home folder):
 
-        .ssh/config<br>
-        .bash_profile<br>
-        .bashrc<br>
+      .ssh/config<br>
+      .bash_profile<br>
+      .bashrc<br>
 
 1. Create a New SSH Key
   
