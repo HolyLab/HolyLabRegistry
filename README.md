@@ -252,6 +252,8 @@ $ git branch -D teh/SomeNewPkg
 This is required only if your package uses other packages which are registered in this HolyLabRegistry registry,
 or your package depends on unregistered private packages.
 
+- In the repository's `Settings`, go to `Secrets and Variables` and expand the caret, click on `Actions`. Add a `New repository secret` called `SSH_PRIVATE_KEY`, and copy the contents of the *private* key for your `github_CI_key` (i.e., not the file ending in `.pub`)
+
 - Include the following lines in the jobs section of the `CI.yml` file in the `.github/workflows/` directory
   of your package.
 
