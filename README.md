@@ -41,15 +41,10 @@ For windows users, you can get some information at https://gist.github.com/bsara
   
   1.1 Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
-    ```
-    $ ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"
-    ```
-    Note: Around September 1, 2021, GitHub has added new security requirements for newly added RSA keys. Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-    <!-- Note: It might have error when you install package from Holylab repository after you finished all steps, the error is "ERROR: failed to fetch from git@github.com". If you face this problem, it might be helpful to replace the command above by -->
-
-    <!-- ```
-    $ ssh-keygen -m PEM rsa -b 4096 -C "your_email@example.com"
-    ```  -->
+      ```
+      $ ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"
+      ```
+      Note: Around September 1, 2021, GitHub has added new security requirements for newly added RSA keys. Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
     
     - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
       ```
