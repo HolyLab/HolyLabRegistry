@@ -39,7 +39,7 @@ For windows users, you can get some information at https://gist.github.com/bsara
   
   Here are the steps needed to generate a key:
   
-    1.1 Generating a new SSH key at a local machine.
+  1.1 Generating a new SSH key at a local machine.
     - Open git bash and paste text below, substituting in your GitHub email address.
     ```
     $ ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"
@@ -50,30 +50,30 @@ For windows users, you can get some information at https://gist.github.com/bsara
     <!-- ```
     $ ssh-keygen -m PEM rsa -b 4096 -C "your_email@example.com"
     ```  -->
-
+    
     - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
-    ```
-    Enter a file in which to save the key (/home/you/.ssh/id_ecdsa): [Press enter]
-    ```
-    It's recommended to name the key something informative, e.g., `github_push_key` or `github_CI_key` for the two cases described at the top of this section.
-
+      ```
+      Enter a file in which to save the key (/home/you/.ssh/id_ecdsa): [Press enter]
+      ```
+      It's recommended to name the key something informative, e.g., `github_push_key` or `github_CI_key` for the two cases described at the top of this section.
+    
     - At the prompt, type a secure passphrase if you want. (Do not use a passphrase for `github_CI_key` cases, just hit <Enter> at the prompts below.)
-    ```
-    Enter passphrase (empty for no passphrase): [Type a passphrase]
-    Enter same passphrase again: [Type passphrase again]
-    ```
-
+      ```
+      Enter passphrase (empty for no passphrase): [Type a passphrase]
+      Enter same passphrase again: [Type passphrase again]
+      ```
+    
     1.2 Adding your SSH key to the ssh-agent (only for `github_push_key`)
     - Start the ssh-agent in the background.
-    ```
-    $ eval "$(ssh-agent -s)"
-    Agent pid 59566
-    ```
+      ```
+      $ eval "$(ssh-agent -s)"
+      Agent pid 59566
+      ```
 
     - Add your SSH private key to the ssh-agent
-    ```
-    $ ssh-add ~/.ssh/id_ecdsa
-    ```
+      ```
+      $ ssh-add ~/.ssh/id_ecdsa
+      ```
 2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux) (Only for `github_push_key`)
 
     2.1 Configure SSH for Git Hosting Server
