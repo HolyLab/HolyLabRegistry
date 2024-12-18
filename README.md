@@ -30,12 +30,12 @@ For windows users, you can get some information at https://gist.github.com/bsara
 
 1. Create a New SSH Key
 
-  Most interactions with GitHub require authentication, which is handled by SSH. There are at least two distinct cases:
+   Most interactions with GitHub require authentication, which is handled by SSH. There are at least two distinct cases:
 
-  - `github_push_key`: when you want to `push` code from a local machine up to GitHub: for this case, your private key remains only on your local machine and your public key needs to be registered with your GitHub account.
-  - `github_CI_key`: when you want a package you're developing and hosting on GitHub to be able to access private repositories (e.g., during CI): for this case, the private key gets pasted into a repository secret, and the public key needs to be registered with your GitHub account.
+   - `github_push_key`: when you want to `push` code from a local machine up to GitHub: for this case, your private key remains only on your local machine and your public key needs to be registered with your GitHub account.
+   - `github_CI_key`: when you want a package you're developing and hosting on GitHub to be able to access private repositories (e.g., during CI): for this case, the private key gets pasted into a repository secret, and the public key needs to be registered with your GitHub account.
 
-  If both of these uses apply to you, you should generate two separate keys for the two cases.
+   If both of these uses apply to you, you should generate two separate keys for the two cases.
 
 
 2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux) (Only for `github_push_key`)
