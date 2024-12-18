@@ -77,52 +77,52 @@ For windows users, you can get some information at https://gist.github.com/bsara
 2. Setup SSH Authentication for Git Bash on Windows (Safe to skip for Linux) (Only for `github_push_key`)
 
     2.1 Configure SSH for Git Hosting Server
-    - Add the following text to .ssh/config (.ssh should be found in the root of your user home folder):
-    ```
-    Host github.com<br>
-    Hostname github.com<br>
-    IdentityFile ~/.ssh/id_ecdsa
-    ```
+      Add the following text to .ssh/config (.ssh should be found in the root of your user home folder):
+      ```
+      Host github.com<br>
+      Hostname github.com<br>
+      IdentityFile ~/.ssh/id_ecdsa
+      ```
 
     2.2 Enable SSH Agent Startup Whenever Git Bash is Started
-    - First, ensure that following lines are added to .bash_profile, which should be found in your root user home folder:
-    ```
-    test -f ~/.profile && . ~/.profile
-    test -f ~/.bashrc && . ~/.bashrc
-    ```
-    - Now, add the following text to .bashrc, which should be found in your root user home folder:
-    ```
-    # Start SSH Agent
-    #----------------------------
+      - First, ensure that following lines are added to .bash_profile, which should be found in your root user home folder:
+      ```
+      test -f ~/.profile && . ~/.profile
+      test -f ~/.bashrc && . ~/.bashrc
+      ```
+      - Now, add the following text to .bashrc, which should be found in your root user home folder:
+      ```
+      # Start SSH Agent
+      #----------------------------
 
-    SSH_ENV="$HOME/.ssh/environment"
+      SSH_ENV="$HOME/.ssh/environment"
 
-    function run_ssh_env {
-      . "${SSH_ENV}" > /dev/null
-    }
-
-    function start_ssh_agent {
-      echo "Initializing new SSH agent..."
-      ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
-      echo "succeeded"
-      chmod 600 "${SSH_ENV}"
-
-      run_ssh_env;
-
-      ssh-add ~/.ssh/id_ecdsa;
-    }
-
-    if [ -f "${SSH_ENV}" ]; then
-      run_ssh_env;
-      ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
-        start_ssh_agent;
+      function run_ssh_env {
+        . "${SSH_ENV}" > /dev/null
       }
-    else
-      start_ssh_agent;
-    fi
-    ```
 
-3. Adding a new SSH key to your GitHub account
+      function start_ssh_agent {
+        echo "Initializing new SSH agent..."
+        ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+        echo "succeeded"
+        chmod 600 "${SSH_ENV}"
+
+        run_ssh_env;
+
+        ssh-add ~/.ssh/id_ecdsa;
+      }
+
+      if [ -f "${SSH_ENV}" ]; then
+        run_ssh_env;
+        ps -ef | grep ${SSH_AGENT_PID} | grep ssh-agent$ > /dev/null || {
+          start_ssh_agent;
+        }
+      else
+        start_ssh_agent;
+      fi
+      ```
+
+3. Adding a new SSH key to your GitHub account:
     - Copies the contents of the id_ecdsa.pub file in the local machine to your clipboard
     - Go to GitHub site
     - In the upper-right corner of any page, click your profile photo, then click Settings.
