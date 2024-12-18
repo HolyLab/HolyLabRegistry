@@ -34,31 +34,33 @@ For windows users, you can get some information at https://gist.github.com/bsara
 
   - `github_push_key`: when you want to `push` code from a local machine up to GitHub: for this case, your private key remains only on your local machine and your public key needs to be registered with your GitHub account.
   - `github_CI_key`: when you want a package you're developing and hosting on GitHub to be able to access private repositories (e.g., during CI): for this case, the private key gets pasted into a repository secret, and the public key needs to be registered with your GitHub account.
-  
+
   If both of these uses apply to you, you should generate two separate keys for the two cases.
-  
+
   Here are the steps needed to generate a key:
-  
+
   1.1 Generating a new SSH key at a local machine.
+
     - Open git bash and paste text below, substituting in your GitHub email address.
       ```
       $ ssh-keygen -t ecdsa -b 521 -C "your_email@example.com"
       ```
       Note: Around September 1, 2021, GitHub has added new security requirements for newly added RSA keys. Please see https://github.blog/2021-09-01-improving-git-protocol-security-github/ for more information.
-    
+
     - When you're prompted to "Enter a file in which to save the key," press Enter. This accepts the default file location.
       ```
       Enter a file in which to save the key (/home/you/.ssh/id_ecdsa): [Press enter]
       ```
       It's recommended to name the key something informative, e.g., `github_push_key` or `github_CI_key` for the two cases described at the top of this section.
-    
+
     - At the prompt, type a secure passphrase if you want. (Do not use a passphrase for `github_CI_key` cases, just hit <Enter> at the prompts below.)
       ```
       Enter passphrase (empty for no passphrase): [Type a passphrase]
       Enter same passphrase again: [Type passphrase again]
       ```
-    
+
     1.2 Adding your SSH key to the ssh-agent (only for `github_push_key`)
+
       - Start the ssh-agent in the background.
         ```
         $ eval "$(ssh-agent -s)"
