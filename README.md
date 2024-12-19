@@ -207,8 +207,8 @@ using LocalRegistry, SomeNewPkg
 register(SomeNewPkg, "/home/tim/.julia/registries/HolyLabRegistry")
 ```
   where you replace the specific package name and path to the appropriate value on your system.
-  This will add a new commit to the branch of HolyLabRegistry you just created
-- Submit the branch as a PR to HolyLabRegistry
+  This will add a new commit to the branch of HolyLabRegistry you just created.
+- Submit the branch as a PR to HolyLabRegistry.
 - Once the PR merges, from the HolyLabRegistry directory do
 ```
 $ git checkout master
@@ -243,12 +243,16 @@ $ git branch -D teh/SomeNewPkg
   3bd9afcd-55df-531a-9b34-dc642dce7b95 = { name = "RFFT", path = "RFFT" }
   ```
 
-## Accessing HolyLabRegistry in CI tests
+## Accessing the HolyLabRegistry in a CI workflow
 
 This is required only if your package uses other packages which are registered in this HolyLabRegistry registry.
 
+- Set a secret key in the repository settings if you want to use private dependent packages in our lab. 
+  The key should not include a passphrase when the key pair is generated. Add the public key as a 'new SSH key'
+  in the 'SSH and GPG keys' section of your account settings. The corresponding private key should be added as a
+  'New repository secret' in the 'Actions secrets and variables' section of the repository settings.
 - Include the following lines in the jobs section of the `CI.yml` file in the `.github/workflows/` directory
-  of your package.
+  of your package. (Here, we assume that you set the secret key name as `SSH_PRIVATE_KEY`)
 
 ```
 name: CI
@@ -260,7 +264,7 @@ jobs:
       # setting ...
     steps:
       - uses: actions/checkout@v3      
-      - name: Setup SSH Keys and known_hosts # This section is required if the dependent packages include private packages in our Lab.
+      - name: Setup SSH Keys and known_hosts # This section is required if the dependent packages include private packages in our lab.
         env:
             SSH_AUTH_SOCK: /tmp/ssh_agent.sock
         run: |
