@@ -208,7 +208,7 @@ Then:
 - start Julia and enter the following:
 ```julia
 using LocalRegistry, SomeNewPkg
-register(SomeNewPkg, "/home/tim/.julia/registries/HolyLabRegistry")
+register(SomeNewPkg, registry="/home/tim/.julia/registries/HolyLabRegistry")
 ```
   where you replace the specific package name and path to the appropriate value on your system.
   This will add a new commit to the branch of HolyLabRegistry you just created.
