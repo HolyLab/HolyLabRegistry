@@ -4,8 +4,13 @@ julia = "1"
 ["0-0.1.0"]
 CachedArrays = "0.0.0 - 0.1"
 
+["0.1.1"]
+ImageCore = "0.8-0.9"
+
 ["0.1.1-0"]
 AxisArrays = "0.4"
 CachedArrays = "0.1"
-ImageCore = "0.8-0.9"
 ImageMetadata = "0.9"
+
+["0.1.2-0"]
+ImageCore = "0.8-0.10"
