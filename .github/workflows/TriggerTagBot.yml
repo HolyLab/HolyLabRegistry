@@ -19,8 +19,7 @@ jobs:
           echo "::set-output name=packagename::$PACKAGENAME"
       - name: Run `repository_dispatch` on updated repo, to trigger tagbot
         run: |
-          curl -L -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
-          -H "Accept: application/vnd.github+json" \
-          -H "Authorization: ${{ secrets.TAGBOT_PAT }}" \
-          -H "X-GitHub-Api-Version: 2022-11-28" \
+          curl -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
+          -H 'Accept: application/vnd.github+json' \
+          -u ${{ secrets.TAGBOT_PAT }} \
           --data '{"event_type": "TriggerTagBot_${{ steps.pkg.outputs.packagename }}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
