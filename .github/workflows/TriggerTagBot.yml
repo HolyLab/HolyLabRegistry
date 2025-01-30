@@ -21,5 +21,5 @@ jobs:
         run: |
           curl -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
           -H 'Accept: application/vnd.github+json' \
-          -u ${{ secrets.TAGBOT_PAT }} \
+          -H "Authorization: ${{ secrets.TAGBOT_PAT }}" \
           --data '{"event_type": "TriggerTagBot_${{ steps.pkg.outputs.packagename }}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
