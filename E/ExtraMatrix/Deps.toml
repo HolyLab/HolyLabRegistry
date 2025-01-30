@@ -1,9 +1,11 @@
-["0.0-0.1"]
+[0]
+Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
+FactoredMatrices = "13d07ad6-c0d4-11e8-35b1-91a532e61cc8"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+["0-0.0.1"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 Pkg = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
-FactoredMatrices = "13d07ad6-c0d4-11e8-35b1-91a532e61cc8"
-Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
-Combinatorics = "861a8166-3701-5b0c-9a16-15d98fcdc6aa"
