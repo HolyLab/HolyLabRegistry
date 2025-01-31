@@ -1,4 +1,3 @@
-author = ["Tim Holy <tim.holy@gmail.com>", "Kelly Hill Markwalter"]
 name = "LinearKernelModels"
-repo = "git@github.com:HolyLab/LinearKernelModels.jl.git"
 uuid = "bc20c4a6-ae8f-539c-9805-f1e868603a0f"
+repo = "git@github.com:HolyLab/LinearKernelModels.jl.git"
