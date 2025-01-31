@@ -16,10 +16,11 @@ jobs:
         id: pkg
         run: |
           PACKAGENAME=$(git diff HEAD^ --stat | grep /Versions.toml | cut -d/ -f2 | uniq)
-          echo "::set-output name=packagename::$PACKAGENAME"
+          echo "Package name is: $PACKAGENAME"
+          echo "packagename=$PACKAGENAME" >> "$GITHUB_ENV"
       - name: Run `repository_dispatch` on updated repo, to trigger tagbot
         run: |
-          curl -X POST https://api.github.com/repos/HolyLab/${{ steps.pkg.outputs.packagename }}.jl/dispatches \
+          curl -X POST https://api.github.com/repos/HolyLab/${packagename}.jl/dispatches \
           -H 'Accept: application/vnd.github.everest-preview+json' \
           -u ${{ secrets.TAGBOT_PAT_TEST }} \
-          --data '{"event_type": "TriggerTagBot_${{ steps.pkg.outputs.packagename }}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+          --data '{"event_type": "TriggerTagBot_${packagename}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
