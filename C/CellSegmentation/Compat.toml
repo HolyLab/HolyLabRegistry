@@ -2,13 +2,15 @@
 BoxTrees = "0.0"
 ExtraMatrix = "0.0"
 ISVD = "0.0"
-ShotNoise = "0.0"
 
 ["0-0.1"]
 FactoredMatrices = "0.0"
 FakeCells = "0.0.0 - 0.1"
 MergePairwise = "0.0"
 TiledFactorizations = "0.0"
+
+["0-0.2.3"]
+ShotNoise = "0.0"
 
 ["0.0"]
 TileTrees = "0.0.0 - 0.2"
@@ -40,3 +42,6 @@ MergePairwise = "0.2"
 
 ["0.2.3-0"]
 MergePairwise = "0.2-0.3"
+
+["0.2.4-0"]
+ShotNoise = "0.0-0.1"
