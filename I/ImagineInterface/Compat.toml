@@ -20,17 +20,27 @@ MappedArrays = "0.2-0.3"
 AxisArrays = "0.4"
 DataStructures = "0.17-0.18"
 ImagineFormat = "1"
-ImagineHardware = "0.0.1"
 JSON = "0.21"
-UnitAliases = "0.0.1"
 Unitful = "1"
 
+["0.1.4-0.1.7"]
+ImagineHardware = "0.0.1"
+UnitAliases = "0.0.1"
+
 ["0.1.5-0"]
-DSP = "0.6-0.7"
 MappedArrays = "0.2-0.4"
 
 ["0.1.5-0.1.6"]
 IntervalSets = "0.4-0.6"
 
+["0.1.5-0.1.7"]
+DSP = "0.6-0.7"
+
 ["0.1.7-0"]
 IntervalSets = "0.4-0.7"
+
+["0.1.8-0"]
+DSP = "0.6-0.8"
+ImagineHardware = ["0.0.1", "0.1"]
+Statistics = "1"
+UnitAliases = ["0.0.1", "0.1"]
