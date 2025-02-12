@@ -1,4 +1,4 @@
-[0]
+["0-0.2.2"]
 CachedInterpolations = "0.0.0 - 0.1"
 CenterIndexedArrays = "0.0.0 - 0.2"
 RegisterCore = "0.0.0 - 0.2"
@@ -7,3 +7,15 @@ RegisterFit = "0.0.0 - 0.1"
 RegisterHindsight = "0.0.0 - 0.2"
 RegisterOptimize = "0.0.0 - 0.3"
 RegisterPenalty = "0.0.0 - 0.2"
+
+["0.2.3-0"]
+CachedInterpolations = "0.1"
+CenterIndexedArrays = "0.2"
+Reexport = "1"
+RegisterCore = "0.2.2-0.2"
+RegisterDeformation = "0.3-0.4"
+RegisterFit = "0.1-0.2"
+RegisterHindsight = "0.1-0.2"
+RegisterOptimize = "0.3"
+RegisterPenalty = "0.2-0.3"
+julia = "1.10.0-1"
