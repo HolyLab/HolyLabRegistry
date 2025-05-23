@@ -1,0 +1,3 @@
+name = "CounterMarking"
+uuid = "454fbcff-fa78-4492-9c80-2cfc3f2a4b52"
+repo = "git@github.com:HolyLab/CounterMarking.jl.git"
