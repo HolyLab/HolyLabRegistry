@@ -1,0 +1,13 @@
+[1]
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+Gtk4 = "9db2cae5-386f-4011-9d63-a5602296539b"
+GtkObservables = "8710efd8-4ad6-11eb-33ea-2d5ceb25a41c"
+ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
+ImageIO = "82e4d734-157c-48bb-816b-45c225c6df19"
+ImageMorphology = "787d08f9-d448-5407-9aad-5290dd7ab264"
+ImageSegmentation = "80713f31-8817-5129-9cf8-209ff8fb23e1"
+ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
+XLSX = "fdbf4ff8-1666-58a4-91e7-1b58723a45e0"
