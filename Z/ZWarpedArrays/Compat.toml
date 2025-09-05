@@ -6,12 +6,14 @@ julia = "1"
 AxisArrays = "0.4"
 CachedArrays = "0.1.2-0.1"
 CoordinateTransformations = "0.5-0.6"
-Interpolations = "0.12-0.13"
 Unitful = "1"
 julia = "1.1.0-1"
 
 ["0.1.1-0.1.2"]
 Images = "0.23-0.25"
+
+["0.1.1-0.1.3"]
+Interpolations = "0.12-0.13"
 
 ["0.1.2"]
 ImageTransformations = "0.8-0.9"
@@ -19,3 +21,6 @@ ImageTransformations = "0.8-0.9"
 ["0.1.3-0"]
 ImageTransformations = "0.8-0.10"
 Images = "0.23-0.26"
+
+["0.1.4-0"]
+Interpolations = ["0.12-0.13", "0.15-0.16"]
