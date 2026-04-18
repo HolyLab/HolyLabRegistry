@@ -28,3 +28,6 @@ ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 
 ["0.3-0"]
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
+
+["0.3.5-0"]
+NMFMerge = "9cc52eda-dfaf-4e21-aae3-9f26bed153a3"
