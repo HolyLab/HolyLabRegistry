@@ -12,6 +12,7 @@ RegisterDeformation = "0.3"
 julia = "1.1.0-1"
 
 ["0.2-0"]
+CachedInterpolations = "0.1"
 CenterIndexedArrays = "0.1-0.2"
 RegisterCore = "0.2.1-0.2"
 RegisterUtilities = "0.1"
@@ -19,9 +20,6 @@ RegisterUtilities = "0.1"
 ["0.2-0.3.0"]
 CoordinateTransformations = "0.5"
 StaticArrays = "0.10-0.12"
-
-["0.2-1"]
-CachedInterpolations = "0.1"
 
 ["0.3-0"]
 RegisterDeformation = "0.3-0.4"
@@ -37,7 +35,7 @@ StaticArrays = ["0.10-0.12", "1"]
 ["0.3.2"]
 Interpolations = "0.9-0.15"
 
-["0.3.3-1"]
+["0.3.3-0"]
 Interpolations = "0.9-0.16"
 
 [1]
@@ -47,3 +45,11 @@ RegisterCore = ["0.2.1-0.2", "1"]
 RegisterDeformation = ["0.3-0.4", "1"]
 RegisterUtilities = ["0.1", "1"]
 julia = "1.10.0-1"
+
+["1.0.0"]
+CachedInterpolations = "0.1"
+Interpolations = "0.9-0.16"
+
+["1.0.1-1"]
+CachedInterpolations = ["0.1", "1"]
+Interpolations = "0.9-1"
