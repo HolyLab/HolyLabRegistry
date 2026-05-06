@@ -1,0 +1,3 @@
+name = "BoxROIs"
+uuid = "517cc204-9f26-4324-9fcb-b5e88f22b22c"
+repo = "git@github.com:HolyLab/BoxROIs.jl.git"
