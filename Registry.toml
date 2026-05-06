@@ -37,6 +37,7 @@ register any package within lab scope.
 454fbcff-fa78-4492-9c80-2cfc3f2a4b52 = { name = "CounterMarking", path = "C/CounterMarking" }
 464fa2a9-b19c-5c59-8698-f58c971f971e = { name = "RegisterPenalty", path = "R/RegisterPenalty" }
 46a7138f-0d70-54e1-8ada-fb8296f91f24 = { name = "CenterIndexedArrays", path = "C/CenterIndexedArrays" }
+517cc204-9f26-4324-9fcb-b5e88f22b22c = { name = "BoxROIs", path = "B/BoxROIs" }
 55325cc8-c0ec-11e8-2109-1f9bd277abf4 = { name = "ShotNoise", path = "S/ShotNoise" }
 56f27cf3-5d2e-53a9-a1df-46b7fbe4d4d0 = { name = "DFoFArrays", path = "D/DFoFArrays" }
 597c7b4e-c0ec-11e8-1347-855d2b7c9c20 = { name = "FakeCells", path = "F/FakeCells" }
