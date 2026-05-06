@@ -1,4 +1,0 @@
-name = "CriticalNeighborhood"
-uuid = "3c818559-954a-4ec8-ad7b-b8bb044d1093"
-repo = "git@github.com:HolyLab/NeighborhoodClustering.jl.git"
-subdir = "CriticalNeighborhood"
