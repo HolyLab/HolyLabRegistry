@@ -1,10 +1,17 @@
 [0]
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["0-0.2"]
 DataStructures = "864edb3b-99cc-5e75-8d2d-829cb0a9cfe8"
 Distances = "b4f34e82-e78d-54a5-968a-f98e89d6e8f7"
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
 Random = "9a3f8284-a2c9-5f02-9a11-845980a1fd5c"
 Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 
-["0.2.5-0"]
+["0.2.5-0.2"]
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+["0.3-0"]
+CriticalNeighborhood = "3c818559-954a-4ec8-ad7b-b8bb044d1093"
+Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
+PointServers = "971ec62b-5a8f-4025-ae2c-95144b3fab64"
