@@ -29,7 +29,12 @@ julia = "1.10.0-1"
 LinearAlgebra = "1"
 
 ["0.3-0"]
-CriticalNeighborhood = "0.1"
 Graphs = "1"
 PointServers = "0.1"
 julia = "1.12.0-1"
+
+["0.3.0"]
+CriticalNeighborhood = "0.1"
+
+["0.3.1-0"]
+TippingPointNeighborhoods = "0.1"

@@ -12,6 +12,11 @@ Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
 LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
 
 ["0.3-0"]
-CriticalNeighborhood = "3c818559-954a-4ec8-ad7b-b8bb044d1093"
 Graphs = "86223c79-3864-5bf0-83f7-82e725a168b6"
 PointServers = "971ec62b-5a8f-4025-ae2c-95144b3fab64"
+
+["0.3.0"]
+CriticalNeighborhood = "3c818559-954a-4ec8-ad7b-b8bb044d1093"
+
+["0.3.1-0"]
+TippingPointNeighborhoods = "3c818559-954a-4ec8-ad7b-b8bb044d1093"
