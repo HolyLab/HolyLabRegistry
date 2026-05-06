@@ -1,0 +1,4 @@
+name = "PointServers"
+uuid = "971ec62b-5a8f-4025-ae2c-95144b3fab64"
+repo = "git@github.com:HolyLab/NeighborhoodClustering.jl.git"
+subdir = "PointServers"
