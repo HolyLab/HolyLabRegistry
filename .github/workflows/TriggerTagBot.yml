@@ -20,10 +20,18 @@ jobs:
           echo "packagename=$PACKAGENAME" >> "$GITHUB_ENV"
       - name: Run `repository_dispatch` on updated repo, to trigger tagbot
         env:
-          TAGBOT_PAT: ${{ secrets.TAGBOT_PAT_TEST }}
+          TAGBOT_PAT: ${{ secrets.TAGBOT_TOKEN }}
         run: |
-          curl -X POST https://api.github.com/repos/HolyLab/${packagename}.jl/dispatches \
-          -H 'Accept: application/vnd.github.everest-preview+json' \
-          -H "Authorization: Bearer $TAGBOT_PAT" \
-          --verbose \
-          --data '{"event_type": "TriggerTagBot_${packagename}", "client_payload": { "repository": "'"$GITHUB_REPOSITORY"'" }}'
+          if [ -z "$packagename" ]; then
+            echo "No package name detected, skipping dispatch"
+            exit 0
+          fi
+          echo "Triggering TagBot for: $packagename"
+          payload=$(printf '{"event_type":"TagBot","client_payload":{"repository":"%s"}}' "$GITHUB_REPOSITORY")
+          curl --http1.1 -X POST \
+            "https://api.github.com/repos/HolyLab/${packagename}.jl/dispatches" \
+            -H 'Accept: application/vnd.github.everest-preview+json' \
+            -H "Authorization: Bearer $TAGBOT_PAT" \
+            -H 'Content-Type: application/json' \
+            --verbose \
+            --data "$payload"
