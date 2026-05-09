@@ -1,10 +1,3 @@
-[0]
-BoxTrees = "9cc36475-e10c-57f8-b33d-19dcb253ebc3"
-ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
-FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
-LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
-ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
-
 ["0-0.1"]
 Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 InteractiveUtils = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
@@ -14,9 +7,20 @@ Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 ["0-0.3.5"]
 Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 
-["0.3.6-0"]
+[0-1]
+BoxTrees = "9cc36475-e10c-57f8-b33d-19dcb253ebc3"
+ColorTypes = "3da002f7-5984-5a60-b8a6-cbb66c0b333f"
+FixedPointNumbers = "53c48c17-4a7d-5ca2-90c5-79b7896eea93"
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+ProgressMeter = "92933f4c-e287-5a05-a399-4b506db050ca"
+
+["0.3.6-1"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageDistances = "51556ac3-7006-55f5-8cb3-34580c88182d"
 
-["0.3.9-0"]
+["0.3.9-1"]
 SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
+[1]
+BoxROIs = "517cc204-9f26-4324-9fcb-b5e88f22b22c"
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
