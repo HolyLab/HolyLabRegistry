@@ -1,0 +1,7 @@
+[0]
+Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
+Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
+Gtk4 = "9db2cae5-386f-4011-9d63-a5602296539b"
+GtkObservables = "8710efd8-4ad6-11eb-33ea-2d5ceb25a41c"
+ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
+Observables = "510215fc-4207-5dde-b226-833fc4488ee2"
