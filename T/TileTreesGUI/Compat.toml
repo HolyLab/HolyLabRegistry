@@ -25,11 +25,11 @@ MappedArrays = "0.2"
 ["0.2"]
 julia = "1.2.0-1"
 
-["0.2.1-0"]
-MappedArrays = "0.2-0.4"
-
 ["0.2.1-0.2"]
 Images = "0.18-0.25"
+
+["0.2.1-0.5.2"]
+MappedArrays = "0.2-0.4"
 
 ["0.3-0"]
 ImageBase = "0.1"
@@ -48,11 +48,17 @@ MergePairwise = "0.3"
 DelimitedFiles = "1"
 Gtk4 = "0.7"
 GtkObservables = "2"
-ImageCore = "0.9-0.10"
 julia = "1.10.0-1"
+
+["0.5-0.5.2"]
+ImageCore = "0.9-0.10"
 
 ["0.5.0"]
 ImageView = "0.13"
 
 ["0.5.1-0"]
 ImageView = "0.13.1-0.13"
+
+["0.5.3-0"]
+ImageCore = "0.10"
+TileTreesImages = "0.1"
