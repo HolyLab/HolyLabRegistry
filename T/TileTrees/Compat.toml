@@ -6,7 +6,6 @@ julia = "0.7-1"
 
 ["0.3-0"]
 FixedPointNumbers = "0.7.1-0.8"
-ProgressMeter = "1"
 
 ["0.3-0.3.11"]
 julia = "1"
@@ -17,13 +16,16 @@ Images = "0.18-0.22"
 ["0.3-0.3.4"]
 ColorTypes = "0.8-0.10"
 
+["0.3-1"]
+ProgressMeter = "1"
+
 ["0.3.10-0"]
 ImageCore = "0.9-0.10"
 
 ["0.3.11-0"]
 ColorTypes = "0.8-0.12"
 
-["0.3.12-0"]
+["0.3.12-1"]
 julia = "1.10.0-1"
 
 ["0.3.3-0.3.4"]
@@ -35,8 +37,18 @@ Images = "0.18-0.25"
 ["0.3.5-0.3.10"]
 ColorTypes = "0.8-0.11"
 
-["0.3.6-0"]
-ImageDistances = "0.2"
-
 ["0.3.6-0.3.9"]
 ImageCore = "0.9"
+
+["0.3.6-1"]
+ImageDistances = "0.2"
+
+[1]
+BoxROIs = "1"
+BoxTrees = "1"
+ColorTypes = "0.12"
+FixedPointNumbers = "0.8"
+ImageCore = "0.10"
+LinearAlgebra = "1"
+OffsetArrays = "1"
+SparseArrays = "1"
