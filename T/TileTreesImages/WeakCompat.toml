@@ -1,0 +1,7 @@
+[0]
+Cairo = "1"
+Graphics = "1"
+Gtk4 = "0.7"
+GtkObservables = "2"
+ImageView = "0.13.1-0.13"
+Observables = "0.5"
