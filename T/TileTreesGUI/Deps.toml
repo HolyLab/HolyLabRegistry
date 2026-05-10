@@ -5,7 +5,6 @@ Cairo = "159f3aea-2a34-519c-b102-8c37f9878175"
 DelimitedFiles = "8bb1440f-4735-579b-a4ab-409b98df4dab"
 Graphics = "a2bd30eb-e257-5431-a919-1863eab51364"
 ImageView = "86fae568-95e7-573e-a6b2-d8a6b900c9ef"
-MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
 TileTrees = "cd6f60fb-236b-5882-ad4f-250d5433a9a7"
 
 ["0-0.1.0"]
@@ -26,6 +25,9 @@ Images = "916415d5-f1e6-5110-898d-aaa5f9f070e0"
 ["0-0.4"]
 Gtk = "4c0ca9eb-093a-5379-98c5-f87ac0bbbf44"
 
+["0-0.5.2"]
+MappedArrays = "dbb5928d-eab1-5f90-85c2-b9b0edb7c900"
+
 ["0.3-0"]
 GtkObservables = "8710efd8-4ad6-11eb-33ea-2d5ceb25a41c"
 ImageBase = "c817782e-172a-44cc-b673-b171935fbb9e"
@@ -36,3 +38,6 @@ MergePairwise = "2b713a72-c0d4-11e8-0e3e-e7c72182117a"
 
 ["0.5-0"]
 Gtk4 = "9db2cae5-386f-4011-9d63-a5602296539b"
+
+["0.5.3-0"]
+TileTreesImages = "4fbada4a-003b-4108-a5bf-8c784852870d"
