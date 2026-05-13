@@ -2,9 +2,9 @@
 RegisterMismatchCommon = "0.1"
 
 ["0-0.2"]
-CenterIndexedArrays = "0.0.0 - 0.2"
-RFFT = "0.0.0 - 0.1"
-RegisterCore = "0.0.0 - 0.2"
+CenterIndexedArrays = "0.0.0-0.2"
+RFFT = "0.0.0-0.1"
+RegisterCore = "0.0.0-0.2"
 julia = "0.7-1"
 
 ["0.2"]
@@ -14,8 +14,6 @@ RegisterMismatchCommon = "0.2"
 julia = "1.1.0-1"
 
 ["0.3-0"]
-FFTW = ["0.3", "1"]
-PaddedViews = "0.5"
 RegisterCore = "0.2.1-0.2"
 RegisterMismatchCommon = "0.2.2-0.2"
 
@@ -28,23 +26,33 @@ Reexport = "0.2"
 ["0.3-0.4.1"]
 RFFT = "0.1"
 
+["0.3-1"]
+FFTW = ["0.3", "1"]
+PaddedViews = "0.5"
+
 ["0.3.0"]
 MappedArrays = "0.2"
 
-["0.3.1-0"]
+["0.3.1-1"]
 MappedArrays = "0.2-0.4"
 
 ["0.3.2-0.4.0"]
 ImageCore = "0.8.1-0.9"
 
-["0.3.3-0"]
+["0.3.3-1"]
 Reexport = ["0.2", "1"]
 
 ["0.4-0"]
 julia = "1.6.0-1"
 
-["0.4.1-0"]
+["0.4.1-1"]
 ImageCore = "0.8.1-0.10"
 
-["0.4.2-0"]
+["0.4.2-1"]
 RFFT = ["0.1", "1"]
+
+[1]
+Printf = "1"
+RegisterCore = ["0.2.1-0.2", "1"]
+RegisterMismatchCommon = ["0.2.2-0.2", "1"]
+julia = "1.10.0-1"
