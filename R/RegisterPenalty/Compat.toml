@@ -39,17 +39,28 @@ Interpolations = "0.9-0.15"
 Interpolations = "0.9-0.16"
 
 [1]
-CenterIndexedArrays = ["0.1-0.2", "1"]
 LinearAlgebra = "1"
+julia = "1.10.0-1"
+
+["1-1.0.1"]
+CenterIndexedArrays = ["0.1-0.2", "1"]
 RegisterCore = ["0.2.1-0.2", "1"]
 RegisterDeformation = ["0.3-0.4", "1"]
 RegisterUtilities = ["0.1", "1"]
-julia = "1.10.0-1"
 
 ["1.0.0"]
 CachedInterpolations = "0.1"
 Interpolations = "0.9-0.16"
 
-["1.0.1-1"]
+["1.0.1"]
 CachedInterpolations = ["0.1", "1"]
+
+["1.0.1-1"]
 Interpolations = "0.9-1"
+
+["1.0.2-1"]
+CachedInterpolations = "1"
+CenterIndexedArrays = "1"
+RegisterCore = "1"
+RegisterDeformation = "1"
+RegisterUtilities = "1"
