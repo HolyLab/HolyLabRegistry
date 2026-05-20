@@ -2,23 +2,21 @@
 julia = "0.7-1"
 
 ["0-0.2"]
-CachedInterpolations = "0.0.0 - 0.1"
-CenterIndexedArrays = "0.0.0 - 0.2"
-QuadDIRECT = "0.0.0 - 0.1"
-RegisterCore = "0.0.0 - 0.2"
-RegisterDeformation = "0.0.0 - 0.3"
-RegisterFit = "0.0.0 - 0.1"
-RegisterPenalty = "0.0.0 - 0.2"
-RegisterUtilities = "0.0.0 - 0.1"
+CachedInterpolations = "0.0.0-0.1"
+CenterIndexedArrays = "0.0.0-0.2"
+QuadDIRECT = "0.0.0-0.1"
+RegisterCore = "0.0.0-0.2"
+RegisterDeformation = "0.0.0-0.3"
+RegisterFit = "0.0.0-0.1"
+RegisterPenalty = "0.0.0-0.2"
+RegisterUtilities = "0.0.0-0.1"
 
 ["0-0.3.0"]
-RegisterMismatch = "0.0.0 - 0.3"
+RegisterMismatch = "0.0.0-0.3"
 
 ["0.3-0"]
 CachedInterpolations = "0.1"
 CenterIndexedArrays = "0.2"
-NLsolve = "3-4"
-ProgressMeter = ["0.7-0.9", "1"]
 
 ["0.3-0.3.2"]
 Ipopt = "0.5-0.6"
@@ -28,6 +26,10 @@ julia = "1.1.0-1"
 
 ["0.3-0.3.4"]
 ForwardDiff = "0.10"
+
+["0.3-1"]
+NLsolve = "3-4"
+ProgressMeter = ["0.7-0.9", "1"]
 
 ["0.3.0"]
 CoordinateTransformations = "0.5"
@@ -40,18 +42,23 @@ RegisterPenalty = "0.1-0.2"
 StaticArrays = "0.10-0.12"
 
 ["0.3.1-0"]
-CoordinateTransformations = "0.5-0.6"
-Optim = ["0.18-0.20", "1"]
 RegisterCore = "0.2"
 RegisterDeformation = "0.3-0.4"
 RegisterFit = "0.1-0.2"
 RegisterPenalty = "0.1-0.3"
-StaticArrays = ["0.10-0.12", "1"]
 
 ["0.3.1-0.3.2"]
 Interpolations = "0.9-0.13"
 
-["0.3.3-0"]
+["0.3.1-1"]
+CoordinateTransformations = "0.5-0.6"
+Optim = ["0.18-0.20", "1"]
+StaticArrays = ["0.10-0.12", "1"]
+
+["0.3.3-0.3.5"]
+Interpolations = "0.9-0.15"
+
+["0.3.3-1"]
 Ipopt = ["0.5-0.6", "1"]
 IterativeSolvers = "0.7-0.9"
 JuMP = "1.2.0-1"
@@ -59,11 +66,18 @@ MathOptInterface = "1"
 Statistics = "1"
 julia = "1.10.0-1"
 
-["0.3.3-0.3.5"]
-Interpolations = "0.9-0.15"
-
-["0.3.5-0"]
+["0.3.5-1"]
 ForwardDiff = ["0.10", "1"]
 
-["0.3.6-0"]
+["0.3.6-1"]
 Interpolations = "0.9-0.16"
+
+[1]
+CachedInterpolations = "1"
+CenterIndexedArrays = "1"
+LinearAlgebra = "1"
+Printf = "1"
+RegisterCore = "1"
+RegisterDeformation = "1"
+RegisterFit = "1"
+RegisterPenalty = "1"
