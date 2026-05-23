@@ -50,10 +50,17 @@ GsvdInitialization = "1"
 BoxROIs = "1"
 BoxTrees = "1"
 FactoredMatrices = "1"
-GsvdInitialization = "1.1.1-1"
 LinearAlgebra = "1"
 Random = "1"
 RoundingIntegers = "1"
 ShotNoise = "1"
 SparseArrays = "1"
+
+["1.0"]
+GsvdInitialization = "1.1.1-1"
 TileTrees = "1.4.0-1"
+
+["1.1-1"]
+GsvdInitialization = "1.1.2-1"
+OffsetArrays = "1"
+TileTrees = "2"

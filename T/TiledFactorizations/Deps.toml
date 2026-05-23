@@ -35,3 +35,6 @@ IncrementalSVD = "de227602-7e15-40a7-b166-bbaff82a52b8"
 
 [1]
 BoxROIs = "517cc204-9f26-4324-9fcb-b5e88f22b22c"
+
+["1.1-1"]
+OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
