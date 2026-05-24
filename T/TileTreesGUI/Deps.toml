@@ -39,5 +39,9 @@ MergePairwise = "2b713a72-c0d4-11e8-0e3e-e7c72182117a"
 ["0.5-0"]
 Gtk4 = "9db2cae5-386f-4011-9d63-a5602296539b"
 
-["0.5.3-0"]
+["0.5.3-0.5"]
 TileTreesImages = "4fbada4a-003b-4108-a5bf-8c784852870d"
+
+["0.6-0"]
+BoxROIs = "517cc204-9f26-4324-9fcb-b5e88f22b22c"
+TileTreeRenderings = "eb337a85-28b0-451c-973a-d45f1f086940"
