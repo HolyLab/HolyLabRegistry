@@ -10,7 +10,6 @@ julia = "0.7-1"
 ["0.1-0"]
 FactoredMatrices = "0.1"
 Munkres = "0.2"
-ProgressMeter = "1"
 TiledFactorizations = "0.0-0.1"
 
 ["0.1-0.2"]
@@ -21,6 +20,9 @@ DataStructures = "0.17-0.18"
 
 ["0.1-0.3.4"]
 julia = "1.1.0-1"
+
+["0.1-1"]
+ProgressMeter = "1"
 
 ["0.1.0"]
 Arpack = "0.3-0.4"
@@ -43,8 +45,10 @@ Interpolations = "0.12-0.14"
 ImageCore = "0.9"
 
 ["0.3-0"]
-DelimitedFiles = "1"
 TileTrees = "0.3.8-0.3"
+
+["0.3-1"]
+DelimitedFiles = "1"
 
 ["0.3.2-0"]
 ImageCore = "0.9-0.10"
@@ -58,6 +62,17 @@ DataStructures = "0.17-0.19"
 ["0.3.4-0"]
 Interpolations = "0.12-0.16"
 
-["0.3.5-0"]
+["0.3.5-1"]
 DataStructures = "0.19"
 julia = "1.10.0-1"
+
+[1]
+BoxROIs = "1"
+BoxTrees = "1"
+LinearAlgebra = "1"
+NMFMerge = "1"
+OffsetArrays = "1"
+Random = "1"
+SparseArrays = "1"
+TileTrees = "2"
+TiledFactorizations = "1"
