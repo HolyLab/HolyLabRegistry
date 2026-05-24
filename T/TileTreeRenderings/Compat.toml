@@ -3,5 +3,10 @@ BoxTrees = "1"
 ImageCore = "0.10"
 MappedArrays = "0.4"
 OffsetArrays = "1"
-TileTrees = "1.2.0-1"
 julia = "1.10.0-1"
+
+["1.0.0"]
+TileTrees = "1.2.0-1"
+
+["1.0.1-1"]
+TileTrees = "2"
