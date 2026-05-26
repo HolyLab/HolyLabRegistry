@@ -1,16 +1,25 @@
 ["1.0.0"]
-BlockRegistration = "0.0.0 - 0.2"
-RegisterDriver = "0.0.0 - 0.2"
-RegisterWorkerApertures = "0.0.0 - 0.2"
-RegisterWorkerAperturesMismatch = "0.0.0 - 0.2"
-RegisterWorkerShell = "0.0.0 - 0.2"
+BlockRegistration = "0.0.0-0.2"
+RegisterDriver = "0.0.0-0.2"
+RegisterWorkerApertures = "0.0.0-0.2"
+RegisterWorkerAperturesMismatch = "0.0.0-0.2"
+RegisterWorkerShell = "0.0.0-0.2"
 julia = "1.1.0-1"
 
-["1.0.2-1"]
+["1.0.2"]
 BlockRegistration = "0.2"
-Reexport = "1"
 RegisterDriver = "0.2"
 RegisterWorkerApertures = "0.1-0.2"
 RegisterWorkerAperturesMismatch = "0.1-0.2"
 RegisterWorkerShell = "0.2"
+
+["1.0.2-1"]
+Reexport = "1"
 julia = "1.10.0-1"
+
+["1.0.3-1"]
+BlockRegistration = "1"
+RegisterDriver = "1"
+RegisterWorkerApertures = "1"
+RegisterWorkerAperturesMismatch = "1"
+RegisterWorkerShell = "1"
