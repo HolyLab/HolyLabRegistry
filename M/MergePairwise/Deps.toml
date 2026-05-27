@@ -37,3 +37,7 @@ NMFMerge = "9cc52eda-dfaf-4e21-aae3-9f26bed153a3"
 [1]
 BoxROIs = "517cc204-9f26-4324-9fcb-b5e88f22b22c"
 OffsetArrays = "6fe1bfb0-de20-5000-8ca7-80f57d26f881"
+
+["1.1-1"]
+GsvdInitialization = "2ac24108-be9c-42b8-8d78-6a4f62a87e7d"
+NMF = "6ef6ca0d-6ad7-5ff6-b225-e928bfa0a386"
