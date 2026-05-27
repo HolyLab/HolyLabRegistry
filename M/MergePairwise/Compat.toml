@@ -76,3 +76,7 @@ Random = "1"
 SparseArrays = "1"
 TileTrees = "2"
 TiledFactorizations = "1"
+
+["1.1-1"]
+GsvdInitialization = "1.1.0-1"
+NMF = "1"
