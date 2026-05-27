@@ -2,21 +2,17 @@
 julia = "0.7-1"
 
 ["0-0.2.0"]
-CenterIndexedArrays = "0.0.0 - 0.2"
-QuadDIRECT = "0.0.0 - 0.1"
-RegisterCore = "0.0.0 - 0.2"
-RegisterDeformation = "0.0.0 - 0.3"
-RegisterMismatch = "0.0.0 - 0.3"
+CenterIndexedArrays = "0.0.0-0.2"
+QuadDIRECT = "0.0.0-0.1"
+RegisterCore = "0.0.0-0.2"
+RegisterDeformation = "0.0.0-0.3"
+RegisterMismatch = "0.0.0-0.3"
 
 ["0.2.1"]
 CenterIndexedArrays = "0.1"
 Images = "0.18-0.22"
 RegisterCore = "0.1"
 RegisterMismatch = "0.2"
-
-["0.2.1-0"]
-OffsetArrays = ["0.11", "1"]
-PaddedViews = "0.4-0.5"
 
 ["0.2.1-0.2.2"]
 CoordinateTransformations = "0.5"
@@ -29,6 +25,10 @@ StaticArrays = "0.11-0.12"
 ["0.2.1-0.3.1"]
 QuadDIRECT = "0.0-0.1"
 julia = "1"
+
+["0.2.1-1"]
+OffsetArrays = ["0.11", "1"]
+PaddedViews = "0.4-0.5"
 
 ["0.2.2"]
 Images = "0.20-0.22"
@@ -43,11 +43,6 @@ RegisterMismatch = "0.3"
 ["0.2.3"]
 RegisterDeformation = "0.3"
 
-["0.2.3-0"]
-CoordinateTransformations = "0.5-0.6"
-Rotations = ["0.12-0.13", "1"]
-StaticArrays = ["0.11-0.12", "1"]
-
 ["0.2.3-0.2.4"]
 Images = "0.20-0.23"
 MappedArrays = "0.2-0.3"
@@ -55,13 +50,18 @@ MappedArrays = "0.2-0.3"
 ["0.2.3-0.3.0"]
 Interpolations = "0.12-0.13"
 
+["0.2.3-1"]
+CoordinateTransformations = "0.5-0.6"
+Rotations = ["0.12-0.13", "1"]
+StaticArrays = ["0.11-0.12", "1"]
+
 ["0.2.4-0"]
 RegisterDeformation = "0.3-0.4"
 
 ["0.2.5"]
 Images = "0.20-0.24"
 
-["0.2.5-0"]
+["0.2.5-1"]
 MappedArrays = "0.2-0.4"
 
 ["0.2.6-0.3.1"]
@@ -74,11 +74,21 @@ RegisterMismatch = "0.3-0.4"
 Interpolations = "0.12-0.14"
 
 ["0.3.2-0"]
+julia = "1.6.0-1"
+
+["0.3.2-1"]
 ImageCore = "0.10"
 ImageTransformations = "0.10"
 Interpolations = "0.12-0.15"
 QuadDIRECT = "0.1"
-julia = "1.6.0-1"
 
-["0.3.3-0"]
+["0.3.3-1"]
 ImageFiltering = "0.7"
+
+[1]
+CenterIndexedArrays = "1"
+LinearAlgebra = "1"
+RegisterCore = "1"
+RegisterDeformation = "1"
+RegisterMismatchCommon = "1"
+julia = "1.10.0-1"
