@@ -12,26 +12,26 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 2
-      - name: Get updated package name
-        id: pkg
-        run: |
-          PACKAGENAME=$(git diff HEAD^ --stat | grep /Versions.toml | cut -d/ -f2 | uniq)
-          echo "Package name is: $PACKAGENAME"
-          echo "packagename=$PACKAGENAME" >> "$GITHUB_ENV"
-      - name: Run `repository_dispatch` on updated repo, to trigger tagbot
+      - name: Trigger TagBot for each updated package
         env:
           TAGBOT_PAT: ${{ secrets.TAGBOT_TOKEN }}
         run: |
-          if [ -z "$packagename" ]; then
+          PACKAGENAMES=$(git diff HEAD^ --stat | grep /Versions.toml | cut -d/ -f2 | sort -u)
+          if [ -z "$PACKAGENAMES" ]; then
             echo "No package name detected, skipping dispatch"
             exit 0
           fi
-          echo "Triggering TagBot for: $packagename"
+          echo "Package names:"
+          echo "$PACKAGENAMES"
           payload=$(printf '{"event_type":"TagBot","client_payload":{"repository":"%s"}}' "$GITHUB_REPOSITORY")
-          curl --http1.1 -X POST \
-            "https://api.github.com/repos/HolyLab/${packagename}.jl/dispatches" \
-            -H 'Accept: application/vnd.github.everest-preview+json' \
-            -H "Authorization: Bearer $TAGBOT_PAT" \
-            -H 'Content-Type: application/json' \
-            --verbose \
-            --data "$payload"
+          while IFS= read -r packagename; do
+            [ -z "$packagename" ] && continue
+            echo "Triggering TagBot for: $packagename"
+            curl --http1.1 -X POST \
+              "https://api.github.com/repos/HolyLab/${packagename}.jl/dispatches" \
+              -H 'Accept: application/vnd.github.everest-preview+json' \
+              -H "Authorization: Bearer $TAGBOT_PAT" \
+              -H 'Content-Type: application/json' \
+              --verbose \
+              --data "$payload"
+          done <<< "$PACKAGENAMES"
