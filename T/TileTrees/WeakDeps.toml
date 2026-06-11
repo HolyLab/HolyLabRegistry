@@ -1,3 +1,6 @@
 ["1.2-2"]
 ImageCore = "a09fc81d-aa75-5fe9-8630-4744c3626534"
 ImageDistances = "51556ac3-7006-55f5-8cb3-34580c88182d"
+
+["2.1-2"]
+ShotNoise = "55325cc8-c0ec-11e8-2109-1f9bd277abf4"
