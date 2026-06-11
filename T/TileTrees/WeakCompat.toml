@@ -1,3 +1,6 @@
 ["1.2-2"]
 ImageCore = "0.10"
 ImageDistances = "0.2"
+
+["2.1-2"]
+ShotNoise = "1"
