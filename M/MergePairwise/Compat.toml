@@ -70,13 +70,20 @@ julia = "1.10.0-1"
 BoxROIs = "1"
 BoxTrees = "1"
 LinearAlgebra = "1"
-NMFMerge = "1"
 OffsetArrays = "1"
 Random = "1"
 SparseArrays = "1"
 TileTrees = "2"
 TiledFactorizations = "1"
 
-["1.1-1"]
+["1-1.1.1"]
+NMFMerge = "1"
+
+["1.1-1.1.1"]
 GsvdInitialization = "1.1.0-1"
 NMF = "1"
+
+["1.1.2-1"]
+GsvdInitialization = "2"
+NMF = "1.1.0-1"
+NMFMerge = "2"
