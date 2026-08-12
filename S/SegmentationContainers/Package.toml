@@ -1,0 +1,3 @@
+name = "SegmentationContainers"
+uuid = "47d8458b-c417-4f54-b6f5-514611336add"
+repo = "https://github.com/HolyLab/SegmentationContainers.jl.git"
